@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HQQVRPlayer_Example' do
+  pod 'HQQVRPlayer', :path => '../'
+
+  target 'HQQVRPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

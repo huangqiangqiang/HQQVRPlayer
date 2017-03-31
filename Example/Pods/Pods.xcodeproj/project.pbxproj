@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005AD4FE7C264E63858ACC637AA6BE5A /* Pods-HQQVRPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */; };
+		2D40B20EC9C88235E39E921ACE78925C /* Pods-HQQVRPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35FF0A1EB0CF91634BADA46893423CAB /* Pods-HQQVRPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */; };
+		38E9598FFD4CADFFBA691C09AEB9C967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4153B00240E979E01B0B865976E3CE9A /* Pods-HQQVRPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AA83A91E8E851900909F4F /* HQQVRPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 53AA83A71E8E851900909F4F /* HQQVRPlayer.h */; };
+		53AA83AA1E8E851900909F4F /* HQQVRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83A81E8E851900909F4F /* HQQVRPlayer.m */; };
+		714FC6E7163E4F4CB1AC7758ED1E1289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		78A3C4B6B1E8E6C23D1988807FB0D89A /* HQQVRPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9DB938761514EC130FBF12FEEBF8A3 /* HQQVRPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F607EE1C19649DF449FDF94939FF3A1B /* HQQVRPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B0DE2519C872D1B71D48B430E024DA /* HQQVRPlayer-dummy.m */; };
+		F9FEC52467CAECFDAC397EE49829C75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5B07E4787A1AFBF953522EA47103F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0F0C1EA24A026ABA0139C22D88D79;
+			remoteInfo = HQQVRPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F9B1885B802CCBFA1A4CB388EE715FC /* Pods-HQQVRPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HQQVRPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQQVRPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQQVRPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA1B44F251F5476A2EF8B6AC01A3BEC /* Pods-HQQVRPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQQVRPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3581A9BDBD6B10B391D5116A169EC576 /* Pods-HQQVRPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E9DB938761514EC130FBF12FEEBF8A3 /* HQQVRPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQVRPlayer-umbrella.h"; sourceTree = "<group>"; };
+		46E7021B2BF2A9872B03BC69014813B3 /* HQQVRPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HQQVRPlayer.modulemap; sourceTree = "<group>"; };
+		53AA83A71E8E851900909F4F /* HQQVRPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQVRPlayer.h; sourceTree = "<group>"; };
+		53AA83A81E8E851900909F4F /* HQQVRPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQVRPlayer.m; sourceTree = "<group>"; };
+		580654D543F877182ACED30D837FB568 /* Pods-HQQVRPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D07AA667D1264451D855E1D758D5DF7 /* Pods-HQQVRPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HQQVRPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		75302EA96D36CE40CE4EE7C691ABC2B6 /* Pods-HQQVRPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQQVRPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F99DC7BB9445A3A87DFA68C34B07496 /* HQQVRPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQQVRPlayer.xcconfig; sourceTree = "<group>"; };
+		8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HQQVRPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96B0DE2519C872D1B71D48B430E024DA /* HQQVRPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQQVRPlayer-dummy.m"; sourceTree = "<group>"; };
+		9ABFACE19CEAA4905AB5E40DB57E1099 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C803267ED765AA76B35AC1428CC5B80 /* HQQVRPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQVRPlayer-prefix.pch"; sourceTree = "<group>"; };
+		9E97E2F56F2520DA7ACCC7D7A8AA1F29 /* Pods-HQQVRPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQQVRPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0218ADBD0D757D6B6096D5EFB031860 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HQQVRPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HQQVRPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEF429928C23A946483BE8B2ADCF3370 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HQQVRPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85948B04E370A8FE4A409D17C087680 /* Pods-HQQVRPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQQVRPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA6CCA06A9DA188686CB1E6B48FB4FF3 /* Pods-HQQVRPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF559D886673D0D65286BB68D902518F /* Pods-HQQVRPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HQQVRPlayer_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71606E3540AE60A5CF9872A06AE7BD3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714FC6E7163E4F4CB1AC7758ED1E1289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C9A309298A10FB4F4E99AB89837D7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FEC52467CAECFDAC397EE49829C75A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4966DB8E1FCEB7AA6A21EF598B95D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E9598FFD4CADFFBA691C09AEB9C967 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298AC524F055D7DB9B187CD1A51A01BD /* Pods-HQQVRPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF429928C23A946483BE8B2ADCF3370 /* Info.plist */,
+				0F9B1885B802CCBFA1A4CB388EE715FC /* Pods-HQQVRPlayer_Tests.modulemap */,
+				75302EA96D36CE40CE4EE7C691ABC2B6 /* Pods-HQQVRPlayer_Tests-acknowledgements.markdown */,
+				F85948B04E370A8FE4A409D17C087680 /* Pods-HQQVRPlayer_Tests-acknowledgements.plist */,
+				C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */,
+				FA6CCA06A9DA188686CB1E6B48FB4FF3 /* Pods-HQQVRPlayer_Tests-frameworks.sh */,
+				3581A9BDBD6B10B391D5116A169EC576 /* Pods-HQQVRPlayer_Tests-resources.sh */,
+				BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */,
+				949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */,
+				022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-HQQVRPlayer_Tests";
+			path = "Target Support Files/Pods-HQQVRPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		34EC6B0288544E1345AAB13A1FB367E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53AA83A71E8E851900909F4F /* HQQVRPlayer.h */,
+				53AA83A81E8E851900909F4F /* HQQVRPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5777F3154103ED35784AC00325549F05 /* Pods-HQQVRPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9ABFACE19CEAA4905AB5E40DB57E1099 /* Info.plist */,
+				FF559D886673D0D65286BB68D902518F /* Pods-HQQVRPlayer_Example.modulemap */,
+				9E97E2F56F2520DA7ACCC7D7A8AA1F29 /* Pods-HQQVRPlayer_Example-acknowledgements.markdown */,
+				2BA1B44F251F5476A2EF8B6AC01A3BEC /* Pods-HQQVRPlayer_Example-acknowledgements.plist */,
+				8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */,
+				580654D543F877182ACED30D837FB568 /* Pods-HQQVRPlayer_Example-frameworks.sh */,
+				5D07AA667D1264451D855E1D758D5DF7 /* Pods-HQQVRPlayer_Example-resources.sh */,
+				672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */,
+				1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */,
+				9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-HQQVRPlayer_Example";
+			path = "Target Support Files/Pods-HQQVRPlayer_Example";
+			sourceTree = "<group>";
+		};
+		5F7AB12360CF23565FB9CF57007B1E71 /* HQQVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				34EC6B0288544E1345AAB13A1FB367E8 /* Classes */,
+			);
+			path = HQQVRPlayer;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A519253BC24097EE66D3C69E221953A2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BB06814354235F069F730A7C72C69912 /* Products */,
+				95AFD12230981691670DC1958221D1A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95AFD12230981691670DC1958221D1A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5777F3154103ED35784AC00325549F05 /* Pods-HQQVRPlayer_Example */,
+				298AC524F055D7DB9B187CD1A51A01BD /* Pods-HQQVRPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		967E287C78B1CD5B363C254814F76C97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E7021B2BF2A9872B03BC69014813B3 /* HQQVRPlayer.modulemap */,
+				7F99DC7BB9445A3A87DFA68C34B07496 /* HQQVRPlayer.xcconfig */,
+				96B0DE2519C872D1B71D48B430E024DA /* HQQVRPlayer-dummy.m */,
+				9C803267ED765AA76B35AC1428CC5B80 /* HQQVRPlayer-prefix.pch */,
+				3E9DB938761514EC130FBF12FEEBF8A3 /* HQQVRPlayer-umbrella.h */,
+				B0218ADBD0D757D6B6096D5EFB031860 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HQQVRPlayer";
+			sourceTree = "<group>";
+		};
+		A519253BC24097EE66D3C69E221953A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8332E597757B7737B1BF2B85684450B /* HQQVRPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A8332E597757B7737B1BF2B85684450B /* HQQVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5F7AB12360CF23565FB9CF57007B1E71 /* HQQVRPlayer */,
+				967E287C78B1CD5B363C254814F76C97 /* Support Files */,
+			);
+			name = HQQVRPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB06814354235F069F730A7C72C69912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */,
+				1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */,
+				2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BE931DD2457F82D4E60E6226E11C80A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AA83A91E8E851900909F4F /* HQQVRPlayer.h in Headers */,
+				78A3C4B6B1E8E6C23D1988807FB0D89A /* HQQVRPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52D2B511F956CABD07FD80E24F56E4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D40B20EC9C88235E39E921ACE78925C /* Pods-HQQVRPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB2167D9CCF640FCB26CADBE15104FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4153B00240E979E01B0B865976E3CE9A /* Pods-HQQVRPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C6571B29C6DDC5077B1FBA04249FDCC /* Pods-HQQVRPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDC82061638CDABC9623EB16979A5D8 /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Tests" */;
+			buildPhases = (
+				415F4064208355C3E64C1DD82721A1BA /* Sources */,
+				C4966DB8E1FCEB7AA6A21EF598B95D77 /* Frameworks */,
+				BCB2167D9CCF640FCB26CADBE15104FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HQQVRPlayer_Tests";
+			productName = "Pods-HQQVRPlayer_Tests";
+			productReference = 2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0F0C1EA24A026ABA0139C22D88D79 /* HQQVRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F1E3F405CA657F59308683040980F /* Build configuration list for PBXNativeTarget "HQQVRPlayer" */;
+			buildPhases = (
+				4DD08F802095F6B8C75E14F24A4BCD2E /* Sources */,
+				73C9A309298A10FB4F4E99AB89837D7D /* Frameworks */,
+				6BE931DD2457F82D4E60E6226E11C80A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQQVRPlayer;
+			productName = HQQVRPlayer;
+			productReference = ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED2C1D495135918F455115ECD60B62F1 /* Pods-HQQVRPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB66CAE54BCE57FD73CD26EA0E612BC /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Example" */;
+			buildPhases = (
+				7B277DCEC76CFA3E8D259965F3445E9D /* Sources */,
+				71606E3540AE60A5CF9872A06AE7BD3B /* Frameworks */,
+				B52D2B511F956CABD07FD80E24F56E4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B742C42A54AAAB396AD2ACFA64A1357 /* PBXTargetDependency */,
+			);
+			name = "Pods-HQQVRPlayer_Example";
+			productName = "Pods-HQQVRPlayer_Example";
+			productReference = 1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB06814354235F069F730A7C72C69912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A0F0C1EA24A026ABA0139C22D88D79 /* HQQVRPlayer */,
+				ED2C1D495135918F455115ECD60B62F1 /* Pods-HQQVRPlayer_Example */,
+				8C6571B29C6DDC5077B1FBA04249FDCC /* Pods-HQQVRPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415F4064208355C3E64C1DD82721A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35FF0A1EB0CF91634BADA46893423CAB /* Pods-HQQVRPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD08F802095F6B8C75E14F24A4BCD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F607EE1C19649DF449FDF94939FF3A1B /* HQQVRPlayer-dummy.m in Sources */,
+				53AA83AA1E8E851900909F4F /* HQQVRPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B277DCEC76CFA3E8D259965F3445E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005AD4FE7C264E63858ACC637AA6BE5A /* Pods-HQQVRPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B742C42A54AAAB396AD2ACFA64A1357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HQQVRPlayer;
+			target = C4A0F0C1EA24A026ABA0139C22D88D79 /* HQQVRPlayer */;
+			targetProxy = D5B07E4787A1AFBF953522EA47103F01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB408C75546B00A9D779DB8099E5E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F99DC7BB9445A3A87DFA68C34B07496 /* HQQVRPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQVRPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HQQVRPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C265D86F5A5E2798E11DC154C76F8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		580C8CAA05CC716009574EFE7716F530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8541F348AF7B35726CC34BD71BF43425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B49171815AB36CFC6CD35F207A036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F99DC7BB9445A3A87DFA68C34B07496 /* HQQVRPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQVRPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HQQVRPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		971B0E5C4851AEE57CDD0930F691EF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417F1E3F405CA657F59308683040980F /* Build configuration list for PBXNativeTarget "HQQVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB408C75546B00A9D779DB8099E5E7B /* Debug */,
+				871B49171815AB36CFC6CD35F207A036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDC82061638CDABC9623EB16979A5D8 /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C265D86F5A5E2798E11DC154C76F8F2 /* Debug */,
+				580C8CAA05CC716009574EFE7716F530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB66CAE54BCE57FD73CD26EA0E612BC /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971B0E5C4851AEE57CDD0930F691EF18 /* Debug */,
+				8541F348AF7B35726CC34BD71BF43425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

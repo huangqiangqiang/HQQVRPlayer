@@ -1,0 +1,6 @@
+framework module Pods_HQQVRPlayer_Tests {
+  umbrella header "Pods-HQQVRPlayer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

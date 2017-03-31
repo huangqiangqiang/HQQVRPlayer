@@ -1,0 +1,22 @@
+{
+  "name": "HQQVRPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of HQQVRPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangqiangqiang/HQQVRPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangqiangqiang": "huangqiangqiang@lianluo.com"
+  },
+  "source": {
+    "git": "https://github.com/huangqiangqiang/HQQVRPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HQQVRPlayer/Classes/**/*"
+}

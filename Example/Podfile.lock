@@ -1,0 +1,16 @@
+PODS:
+  - HQQVRPlayer (0.1.0)
+
+DEPENDENCIES:
+  - HQQVRPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  HQQVRPlayer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HQQVRPlayer: 6836ffd0390ba39ab0be3bcbc402b4ce3035f736
+
+PODFILE CHECKSUM: 203d5b9406f565aeffe3f5c5aa900481fc26c749
+
+COCOAPODS: 1.0.1
