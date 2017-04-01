@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HQQVRPlayer/Classes/**/*"
+  "source_files": "HQQVRPlayer/Classes/*.{h,m}",
+  "resources": "HQQVRPlayer/Classes/HQQVRResource.bundle",
+  "frameworks": "GLKit"
 }

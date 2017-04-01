@@ -9,6 +9,7 @@
 #import "HQQViewController.h"
 #import "HQQBitmapViewController.h"
 #import "HQQVideoViewController.h"
+#import "HQQM3U8VideoViewController.h"
 
 @interface HQQViewController ()
 @property (nonatomic, strong) NSArray *dataList;
@@ -23,7 +24,8 @@
     
     self.dataList = @[
                       @"Image Example",
-                      @"Video Example"
+                      @"Local Video Example",
+                      @"M3U8 Video Example"
                       ];
 }
 
@@ -34,7 +36,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *ID = @"HQQVRCell";
+    static NSString *ID = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
@@ -53,6 +55,9 @@
     }
     else if (indexPath.row == 1) {
         vc = [[HQQVideoViewController alloc] init];
+    }
+    else if (indexPath.row == 2) {
+        vc = [[HQQM3U8VideoViewController alloc] init];
     }
     [self presentViewController:vc animated:YES completion:nil];
 }

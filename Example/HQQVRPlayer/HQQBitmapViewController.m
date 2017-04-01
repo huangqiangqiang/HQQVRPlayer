@@ -7,9 +7,10 @@
 //
 
 #import "HQQBitmapViewController.h"
+#import <HQQVRPlayer/HQQVRPlayer.h>
 
 @interface HQQBitmapViewController ()
-
+@property (nonatomic, strong) HQQVRPlayer *vrPlayer;
 @end
 
 @implementation HQQBitmapViewController
@@ -17,7 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.vrPlayer = [HQQVRPlayer player];
+    self.vrPlayer.touchEnable = YES;
+    self.vrPlayer.displayType = HQQVRDisplayTypePanorama;
+    [self.vrPlayer loadImage:[UIImage imageNamed:@"resource/testImage.png"]];
+    [self.view addSubview:self.vrPlayer.view];
 }
 
 

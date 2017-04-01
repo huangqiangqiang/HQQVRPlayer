@@ -10,6 +10,8 @@
 		15D694129AC2A565E3605999 /* Pods_HQQVRPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3742AAD476EBCCB83614E6C2 /* Pods_HQQVRPlayer_Example.framework */; };
 		53AA83A31E8E836B00909F4F /* HQQBitmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */; };
 		53AA83A61E8E837800909F4F /* HQQVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83A51E8E837800909F4F /* HQQVideoViewController.m */; };
+		53AA83BF1E8EA15100909F4F /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 53AA83BE1E8EA15100909F4F /* resource */; };
+		53AA83DE1E8F9E6300909F4F /* HQQM3U8VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83DD1E8F9E6300909F4F /* HQQM3U8VideoViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -46,6 +48,9 @@
 		53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQBitmapViewController.m; sourceTree = "<group>"; };
 		53AA83A41E8E837800909F4F /* HQQVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQVideoViewController.h; sourceTree = "<group>"; };
 		53AA83A51E8E837800909F4F /* HQQVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQVideoViewController.m; sourceTree = "<group>"; };
+		53AA83BE1E8EA15100909F4F /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
+		53AA83DC1E8F9E6300909F4F /* HQQM3U8VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQM3U8VideoViewController.h; sourceTree = "<group>"; };
+		53AA83DD1E8F9E6300909F4F /* HQQM3U8VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQM3U8VideoViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HQQVRPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQQVRPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +152,8 @@
 				53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */,
 				53AA83A41E8E837800909F4F /* HQQVideoViewController.h */,
 				53AA83A51E8E837800909F4F /* HQQVideoViewController.m */,
+				53AA83DC1E8F9E6300909F4F /* HQQM3U8VideoViewController.h */,
+				53AA83DD1E8F9E6300909F4F /* HQQM3U8VideoViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -158,6 +165,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				53AA83BE1E8EA15100909F4F /* resource */,
 				6003F595195388D20070C39A /* HQQVRPlayer-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -292,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53AA83BF1E8EA15100909F4F /* resource in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -411,6 +420,7 @@
 				6003F5A7195388D20070C39A /* HQQViewController.m in Sources */,
 				53AA83A31E8E836B00909F4F /* HQQBitmapViewController.m in Sources */,
 				53AA83A61E8E837800909F4F /* HQQVideoViewController.m in Sources */,
+				53AA83DE1E8F9E6300909F4F /* HQQM3U8VideoViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

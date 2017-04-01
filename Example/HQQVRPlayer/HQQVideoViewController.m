@@ -7,8 +7,10 @@
 //
 
 #import "HQQVideoViewController.h"
+#import <HQQVRPlayer/HQQVRPlayer.h>
 
 @interface HQQVideoViewController ()
+@property (nonatomic, strong) HQQVRPlayer *vrPlayer;
 
 @end
 
@@ -16,22 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.vrPlayer = [HQQVRPlayer player];
+    self.vrPlayer.touchEnable = YES;
+    self.vrPlayer.displayType = HQQVRDisplayTypePanorama;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"resource/testVideo.mp4" ofType:nil];
+    [self.vrPlayer loadVideo:[NSURL fileURLWithPath:path]];
+    [self.view addSubview:self.vrPlayer.view];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
