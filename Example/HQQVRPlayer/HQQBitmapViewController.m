@@ -21,6 +21,7 @@
     self.vrPlayer = [HQQVRPlayer player];
     self.vrPlayer.touchEnable = YES;
     self.vrPlayer.displayType = HQQVRDisplayTypePanorama;
+    self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotion;
     [self.vrPlayer loadImage:[UIImage imageNamed:@"resource/testImage.png"]];
     [self.view addSubview:self.vrPlayer.view];
 }

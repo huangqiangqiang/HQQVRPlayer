@@ -12,7 +12,6 @@
 #import <AVFoundation/AVFoundation.h>
 #import "HQQVRProgram.h"
 #import "HQQVRDirectorManager.h"
-#import "HQQVRObject3DProtocol.h"
 #import "HQQVRSphereObject.h"
 
 @interface HQQVRPlayer() <HQQVRViewControllerDelegate>
@@ -22,7 +21,7 @@
 @property (nonatomic, strong) HQQVRTexture *texture;
 @property (nonatomic, strong) HQQVRProgram *program;
 @property (nonatomic, strong) HQQVRDirectorManager *directorManager;
-@property (nonatomic, strong) id<HQQVRObject3DProtocol> object3D;
+@property (nonatomic, strong) HQQVRSphereObject *object3D;
 
 @property (nonatomic, assign, getter=isImageSource) BOOL imageSource;
 @property (nonatomic, strong) id originSource;
@@ -59,9 +58,9 @@
     _displayType = displayType;
 }
 
-- (void)setRenderShape:(HQQVRRenderShape)renderShape
+- (void)setInteractiveType:(HQQVRInteractiveType)interactiveType
 {
-    _renderShape = renderShape;
+    _interactiveType = interactiveType;
 }
 
 - (UIView *)view
@@ -99,14 +98,9 @@
     NSLog(@"%@ ------ dealloc",self.class);
 }
 
-- (void)loadObject3D:(HQQVRRenderShape)shape
+- (void)loadObject3D
 {
-    switch (shape) {
-        case HQQVRRenderShapeSphere:
-            self.object3D = [[HQQVRSphereObject alloc] init];
-            break;
-    }
-    
+    self.object3D = [[HQQVRSphereObject alloc] init];
     [self.object3D createObject3D];
 }
 
@@ -114,6 +108,10 @@
 
 - (void)gestureRecognizerOnPan:(UIPanGestureRecognizer *)pan
 {
+    if (self.interactiveType == HQQVRInteractiveTypeMotion) {
+        return;
+    }
+    
     CGPoint point = [pan locationInView:pan.view];
     if (pan.state == UIGestureRecognizerStateBegan) {
         self.prevPoint = point;
@@ -134,7 +132,8 @@
     self.texture = [[HQQVRTexture alloc] init];
     self.directorManager = [HQQVRDirectorManager manager];
     self.directorManager.displayType = self.displayType;
-    [self loadObject3D:HQQVRRenderShapeSphere];
+    self.directorManager.interactiveType = self.interactiveType;
+    [self loadObject3D];
     
     if (self.originSource) {
         if (self.isImageSource) {
@@ -156,32 +155,32 @@
     NSAssert(self.texture != nil, @"Texture is nil");
     NSAssert(self.program != nil, @"Program is nil");
     
-    glClearColor(0.1, 0.1, 0.1, 1.0);
+    glClearColor(0.0, 0.0, 0.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
+    if (self.directorManager.directors.count <= 0) return;
+    if (!self.isImageSource) return;
+    
     NSArray *directors = self.directorManager.directors;
-    
-    if (directors.count <= 0) {
-        return;
-    }
-    
-    if (!self.isImageSource) {
-        [self.texture updateTexture:context];
-    }
-    
     float size = [[UIScreen mainScreen] nativeScale];
     float width = [UIScreen mainScreen].bounds.size.width * size;
     float height = [UIScreen mainScreen].bounds.size.height * size;
-    for (int i = 0; i < directors.count; i++) {
+    int count = directors.count;
+    for (int i = 0; i < count; i++) {
         HQQVRDirector *director = directors[i];
-        glViewport(width * i, 0, width, height);
-        [director updateProjectionMatrixWithWidth:width height:height];
+        float x = width / count * i;
+        float y = 0;
+        float w = width / count;
+        float h = height;
+        glViewport(x, y, w, h);
+        [director updateProjectionMatrixWithWidth:w height:h];
         [director shot:self.program];
+        
+        [self.object3D updateVertex:self.program];
+        [self.object3D updateTexture:self.program];
+        
+        [self.object3D draw];
     }
-    [self.object3D updateVertex:self.program];
-    [self.object3D updateTexture:self.program];
-    
-    [self.object3D draw];
 }
 
 @end

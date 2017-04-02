@@ -3,7 +3,6 @@
 #import "HQQGLUtil.h"
 #import "HQQVRDirector.h"
 #import "HQQVRDirectorManager.h"
-#import "HQQVRObject3DProtocol.h"
 #import "HQQVRPlayer.h"
 #import "HQQVRProgram.h"
 #import "HQQVRSphereObject.h"

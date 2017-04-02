@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '14BADAE546834970CFE6F23DFED2266A'
+               BlueprintIdentifier = 'A91F1079FC5DE304C59AA8C4F68E2AA4'
                BlueprintName = 'HQQVRPlayer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HQQVRPlayer.framework'>

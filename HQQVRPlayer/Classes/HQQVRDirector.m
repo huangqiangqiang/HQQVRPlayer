@@ -15,6 +15,8 @@
 @property (nonatomic, assign) float touchX;
 @property (nonatomic, assign) float touchY;
 
+@property (nonatomic, assign) GLKMatrix4 sensorMatrix;
+
 @property (nonatomic, assign) GLKMatrix4 modelMatrix;
 @property (nonatomic, assign) GLKMatrix4 viewMatrix;
 @property (nonatomic, assign) GLKMatrix4 projectionMatrix;
@@ -29,6 +31,7 @@
         self.eyeX = 0.0f;
         self.lookX = 0.0f;
         
+        self.sensorMatrix = GLKMatrix4Identity;
         self.modelMatrix = GLKMatrix4Identity;
         self.viewMatrix = GLKMatrix4Identity;
         
@@ -60,12 +63,9 @@
 - (void)shot:(HQQVRProgram *)program
 {
     self.modelMatrix = GLKMatrix4Identity;
-    
-    /**
-     先转Y轴，再转X轴
-     */
     self.modelMatrix = GLKMatrix4Rotate(self.modelMatrix, GLKMathDegreesToRadians(self.touchY), 1.0, 0.0, 0.0);
     self.modelMatrix = GLKMatrix4Rotate(self.modelMatrix, GLKMathDegreesToRadians(self.touchX), 0.0, 1.0, 0.0);
+    self.modelMatrix = GLKMatrix4Multiply(self.sensorMatrix, self.modelMatrix);
     
     GLKMatrix4 modelViewMatrix = GLKMatrix4Multiply(self.viewMatrix, self.modelMatrix);
     GLKMatrix4 modelViewProjectionMatrix = GLKMatrix4Multiply(self.projectionMatrix, modelViewMatrix);
@@ -77,5 +77,11 @@
     _touchX += offsetX;
     _touchY += offsetY;
 }
+
+- (void)updateSensorMatrix:(GLKMatrix4)sensorMatrix
+{
+    self.sensorMatrix = sensorMatrix;
+}
+
 
 @end

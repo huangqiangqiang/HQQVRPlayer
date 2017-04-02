@@ -20,4 +20,6 @@
 
 - (void)shot:(HQQVRProgram *)program;
 
+- (void)updateSensorMatrix:(GLKMatrix4)sensorMatrix;
+
 @end

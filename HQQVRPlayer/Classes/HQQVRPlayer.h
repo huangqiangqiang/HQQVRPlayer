@@ -14,14 +14,10 @@ typedef NS_ENUM(NSInteger, HQQVRDisplayType) {
     HQQVRDisplayTypeVR
 };
 
-//typedef NS_ENUM(NSInteger, HQQVRDisplayType) {
-//    HQQVRDisplayTypeNone = 0,
-//    HQQVRDisplayTypePanorama,
-//    HQQVRDisplayTypeVR
-//};
-
-typedef NS_ENUM(NSInteger, HQQVRRenderShape) {
-    HQQVRRenderShapeSphere
+typedef NS_ENUM(NSInteger, HQQVRInteractiveType) {
+    HQQVRInteractiveTypeMotion = 0,
+    HQQVRInteractiveTypeTouch,
+    HQQVRInteractiveTypeMotionAndTouch
 };
 
 @interface HQQVRPlayer : NSObject
@@ -36,7 +32,7 @@ typedef NS_ENUM(NSInteger, HQQVRRenderShape) {
 @property (nonatomic, assign, getter=isTouchEnable) BOOL touchEnable;
 @property (nonatomic, assign, getter=isControlEnable) BOOL controlEnable;
 @property (nonatomic, assign) HQQVRDisplayType displayType;
-@property (nonatomic, assign) HQQVRRenderShape renderShape;
+@property (nonatomic, assign) HQQVRInteractiveType interactiveType;
 
 - (void)loadImage:(UIImage *)image;
 - (void)loadVideo:(NSURL *)url;

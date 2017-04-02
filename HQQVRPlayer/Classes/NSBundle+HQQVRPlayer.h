@@ -12,4 +12,5 @@
 
 + (NSString *)hqq_vertexShaderPath;
 + (NSString *)hqq_fragmentShaderPath;
+
 @end

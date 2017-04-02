@@ -102,6 +102,11 @@ static void *VideoPlayer_PlayerItemStatusContext = &VideoPlayer_PlayerItemStatus
     return;
 }
 
+- (void)dealloc
+{
+    NSLog(@"%@ ------ dealloc",self.class);
+    [self removeObserver:self.playerItem forKeyPath:@"status"];
+}
 
 
 @end

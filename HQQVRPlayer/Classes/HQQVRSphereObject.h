@@ -7,8 +7,14 @@
 //
 
 #import <GLKit/GLKit.h>
-#import "HQQVRObject3DProtocol.h"
+#import "HQQVRProgram.h"
 
-@interface HQQVRSphereObject : NSObject <HQQVRObject3DProtocol>
+@interface HQQVRSphereObject : NSObject
 
+- (void)createObject3D;
+
+- (void)updateVertex:(HQQVRProgram *)program;
+- (void)updateTexture:(HQQVRProgram *)program;
+
+- (void)draw;
 @end

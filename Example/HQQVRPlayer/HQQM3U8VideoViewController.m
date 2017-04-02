@@ -21,6 +21,7 @@
     self.vrPlayer = [HQQVRPlayer player];
     self.vrPlayer.touchEnable = YES;
     self.vrPlayer.displayType = HQQVRDisplayTypePanorama;
+    self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotion;
     [self.vrPlayer loadVideo:[NSURL URLWithString:@"http://139.198.9.190/Public/stream/shuangtasi/stream.m3u8"]];
     [self.view addSubview:self.vrPlayer.view];
 }
