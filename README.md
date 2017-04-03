@@ -22,7 +22,7 @@ pod "HQQVRPlayer"
 
 ## Author
 
-huangqiangqiang, huangqiangqiang@lianluo.com
+huangqiangqiang, 285086598@163.com
 
 ## License
 
