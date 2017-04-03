@@ -11,6 +11,8 @@
 
 @interface HQQBitmapViewController ()
 @property (nonatomic, strong) HQQVRPlayer *vrPlayer;
+@property (nonatomic, strong) UIButton *backBtn;
+@property (nonatomic, strong) UIButton *vrBtn;
 @end
 
 @implementation HQQBitmapViewController
@@ -21,10 +23,9 @@
     self.vrPlayer = [HQQVRPlayer player];
     self.vrPlayer.touchEnable = YES;
     self.vrPlayer.displayType = HQQVRDisplayTypePanorama;
-    self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotion;
+    self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotionAndTouch;
     [self.vrPlayer loadImage:[UIImage imageNamed:@"resource/testImage.png"]];
     [self.view addSubview:self.vrPlayer.view];
 }
-
 
 @end

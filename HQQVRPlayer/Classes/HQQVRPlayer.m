@@ -13,6 +13,7 @@
 #import "HQQVRProgram.h"
 #import "HQQVRDirectorManager.h"
 #import "HQQVRSphereObject.h"
+#import "HQQVRRenderer.h"
 
 @interface HQQVRPlayer() <HQQVRViewControllerDelegate>
 
@@ -20,6 +21,7 @@
 
 @property (nonatomic, strong) HQQVRTexture *texture;
 @property (nonatomic, strong) HQQVRProgram *program;
+@property (nonatomic, strong) HQQVRRenderer *renderer;
 @property (nonatomic, strong) HQQVRDirectorManager *directorManager;
 @property (nonatomic, strong) HQQVRSphereObject *object3D;
 
@@ -41,8 +43,12 @@
 {
     self = [super init];
     if (self) {
+        self.directorManager = [[HQQVRDirectorManager alloc] init];
+        self.renderer = [[HQQVRRenderer alloc] init];
+        self.renderer.directorManager = self.directorManager;
         self.controller = [[HQQVRViewController alloc] init];
-        self.controller.vrDelegate = self;
+        self.controller.vrDelegate = self.renderer;
+        
         [self.controller.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(gestureRecognizerOnPan:)]];
     }
     return self;
@@ -56,11 +62,13 @@
 - (void)setDisplayType:(HQQVRDisplayType)displayType
 {
     _displayType = displayType;
+    self.directorManager.displayType = self.displayType;
 }
 
 - (void)setInteractiveType:(HQQVRInteractiveType)interactiveType
 {
     _interactiveType = interactiveType;
+    self.directorManager.interactiveType = self.interactiveType;
 }
 
 - (UIView *)view
@@ -70,38 +78,21 @@
 
 - (void)loadImage:(UIImage *)image
 {
-    self.imageSource = YES;
-    if (self.texture) {
-        [self.texture loadImage:image];
-    }
-    else{
-        self.originSource = image;
-    }
+    [self.renderer loadImage:image];
 }
 
 - (void)loadVideo:(NSURL *)url
 {
-    self.imageSource = NO;
     AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:url];
     self.videoPlayer = [AVPlayer playerWithPlayerItem:playerItem];
-    if (self.texture) {
-        [self.texture loadVideoWithPlayerItem:playerItem];
-        [self.videoPlayer play];
-    }
-    else{
-        self.originSource = playerItem;
-    }
+    [self.videoPlayer play];
+    [self.renderer loadVideo:playerItem];
+    
 }
 
 - (void)dealloc
 {
     NSLog(@"%@ ------ dealloc",self.class);
-}
-
-- (void)loadObject3D
-{
-    self.object3D = [[HQQVRSphereObject alloc] init];
-    [self.object3D createObject3D];
 }
 
 #pragma mark - <UIGestureRecognizer>
@@ -122,65 +113,6 @@
         [director updateTouchX:offsetX*0.2 touchY:offsetY*0.2];
     }
     self.prevPoint = point;
-}
-
-#pragma mark - <HQQVRViewControllerDelegate>
-
-- (void)vrViewControllerDidReady
-{
-    self.program = [HQQVRProgram createProgram];
-    self.texture = [[HQQVRTexture alloc] init];
-    self.directorManager = [HQQVRDirectorManager manager];
-    self.directorManager.displayType = self.displayType;
-    self.directorManager.interactiveType = self.interactiveType;
-    [self loadObject3D];
-    
-    if (self.originSource) {
-        if (self.isImageSource) {
-            [self.texture loadImage:(UIImage *)self.originSource];
-        }
-        else{
-            AVPlayerItem *item = (AVPlayerItem *)self.originSource;
-            [self.texture loadVideoWithPlayerItem:item];
-            [self.videoPlayer play];
-        }
-        self.originSource = nil;
-    }
-}
-
-
-- (void)vrViewController:(EAGLContext *)context willDrawInRect:(CGRect)rect
-{
-    NSAssert(self.object3D != nil, @"3D Object is nil");
-    NSAssert(self.texture != nil, @"Texture is nil");
-    NSAssert(self.program != nil, @"Program is nil");
-    
-    glClearColor(0.0, 0.0, 0.0, 1.0);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    
-    if (self.directorManager.directors.count <= 0) return;
-    if (!self.isImageSource) return;
-    
-    NSArray *directors = self.directorManager.directors;
-    float size = [[UIScreen mainScreen] nativeScale];
-    float width = [UIScreen mainScreen].bounds.size.width * size;
-    float height = [UIScreen mainScreen].bounds.size.height * size;
-    int count = directors.count;
-    for (int i = 0; i < count; i++) {
-        HQQVRDirector *director = directors[i];
-        float x = width / count * i;
-        float y = 0;
-        float w = width / count;
-        float h = height;
-        glViewport(x, y, w, h);
-        [director updateProjectionMatrixWithWidth:w height:h];
-        [director shot:self.program];
-        
-        [self.object3D updateVertex:self.program];
-        [self.object3D updateTexture:self.program];
-        
-        [self.object3D draw];
-    }
 }
 
 @end

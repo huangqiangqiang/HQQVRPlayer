@@ -30,4 +30,16 @@
     return [[self hqq_vrPlayerBundle] stringByAppendingPathComponent:@"fragment_shader.glsl"];
 }
 
++ (UIImage *)hqq_vrIcon
+{
+    NSString *vrIconPath = [[self hqq_vrPlayerBundle] stringByAppendingPathComponent:@"vr_icon@2x.png"];
+    return [UIImage imageNamed:vrIconPath];
+}
+
++ (UIImage *)hqq_backIcon
+{
+    NSString *vrIconPath = [[self hqq_vrPlayerBundle] stringByAppendingPathComponent:@"back_icon@2x.png"];
+    return [UIImage imageNamed:vrIconPath];
+}
+
 @end

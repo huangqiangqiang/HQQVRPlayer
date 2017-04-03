@@ -6,8 +6,8 @@
 //  Copyright © 2017年 huangqiangqiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HQQPlayerViewController.h"
 
-@interface HQQM3U8VideoViewController : UIViewController
+@interface HQQM3U8VideoViewController : HQQPlayerViewController
 
 @end

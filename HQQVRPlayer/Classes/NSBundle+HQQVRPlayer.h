@@ -13,4 +13,6 @@
 + (NSString *)hqq_vertexShaderPath;
 + (NSString *)hqq_fragmentShaderPath;
 
++ (UIImage *)hqq_vrIcon;
++ (UIImage *)hqq_backIcon;
 @end

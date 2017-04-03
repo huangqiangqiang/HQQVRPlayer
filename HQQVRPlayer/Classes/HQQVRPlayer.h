@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, HQQVRDisplayType) {
-    HQQVRDisplayTypeNone = 0,
     HQQVRDisplayTypePanorama,
     HQQVRDisplayTypeVR
 };
@@ -30,7 +29,6 @@ typedef NS_ENUM(NSInteger, HQQVRInteractiveType) {
 @property (nonatomic, weak, readonly) UIView *view;
 
 @property (nonatomic, assign, getter=isTouchEnable) BOOL touchEnable;
-@property (nonatomic, assign, getter=isControlEnable) BOOL controlEnable;
 @property (nonatomic, assign) HQQVRDisplayType displayType;
 @property (nonatomic, assign) HQQVRInteractiveType interactiveType;
 

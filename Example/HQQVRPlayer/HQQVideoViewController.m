@@ -28,5 +28,4 @@
     [self.view addSubview:self.vrPlayer.view];
 }
 
-
 @end

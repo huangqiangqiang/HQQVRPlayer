@@ -17,11 +17,6 @@
 
 @implementation HQQVRDirectorManager
 
-+ (instancetype)manager
-{
-    return [[self alloc] init];
-}
-
 - (void)setDisplayType:(HQQVRDisplayType)displayType
 {
     [self.directors removeAllObjects];
@@ -32,7 +27,7 @@
         [self.directors addObject:directorLeft];
         [self.directors addObject:directorRight];
     }
-    else{
+    else if (displayType == HQQVRDisplayTypePanorama) {
         HQQVRDirector *director = [[HQQVRDirector alloc] init];
         [self.directors addObject:director];
     }

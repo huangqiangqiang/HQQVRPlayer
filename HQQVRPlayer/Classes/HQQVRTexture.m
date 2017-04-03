@@ -65,6 +65,9 @@ static void *VideoPlayer_PlayerItemStatusContext = &VideoPlayer_PlayerItemStatus
 
 - (void)updateTexture:(EAGLContext *)context
 {
+    if (self.playerItem == nil) {
+        return;
+    }
     CVPixelBufferRef pixelBuffer = NULL;
     CMTime currentTime = [self.playerItem currentTime];
     if ([self.output hasNewPixelBufferForItemTime:currentTime]) {
@@ -105,7 +108,10 @@ static void *VideoPlayer_PlayerItemStatusContext = &VideoPlayer_PlayerItemStatus
 - (void)dealloc
 {
     NSLog(@"%@ ------ dealloc",self.class);
-    [self removeObserver:self.playerItem forKeyPath:@"status"];
+    if (self.playerItem == nil) {
+        return;
+    }
+    [self.playerItem removeObserver:self forKeyPath:@"status" context:VideoPlayer_PlayerItemStatusContext];
 }
 
 

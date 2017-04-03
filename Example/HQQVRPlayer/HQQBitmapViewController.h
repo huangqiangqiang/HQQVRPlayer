@@ -6,8 +6,8 @@
 //  Copyright © 2017年 huangqiangqiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HQQPlayerViewController.h"
 
-@interface HQQBitmapViewController : UIViewController
+@interface HQQBitmapViewController : HQQPlayerViewController
 
 @end

@@ -11,10 +11,8 @@
 
 @interface HQQVRSphereObject : NSObject
 
-- (void)createObject3D;
-
-- (void)updateVertex:(HQQVRProgram *)program;
-- (void)updateTexture:(HQQVRProgram *)program;
++ (instancetype)objectWithProgram:(HQQVRProgram *)program;
 
 - (void)draw;
+
 @end

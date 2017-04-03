@@ -11,6 +11,7 @@
 #define PI 3.14159265f
 
 @interface HQQVRSphereObject()
+@property (nonatomic, weak) HQQVRProgram *program;
 @property (nonatomic, assign) float *vertices;
 @property (nonatomic, assign) float *texCoords;
 @property (nonatomic, assign) short *indices;
@@ -21,11 +22,18 @@
 
 @implementation HQQVRSphereObject
 
-- (instancetype)init
++ (instancetype)objectWithProgram:(HQQVRProgram *)program
+{
+    return [[HQQVRSphereObject alloc] initWithProgram:program];
+}
+
+- (instancetype)initWithProgram:(HQQVRProgram *)program
 {
     self = [super init];
     if (self) {
-        
+        [self createObject3D];
+        [self updateVertex:program];
+        [self updateTexture:program];
     }
     return self;
 }
@@ -93,18 +101,32 @@
 
 - (void)updateVertex:(HQQVRProgram *)program
 {
+//    GLuint buffer;
+//    glGenBuffers(1, &buffer);
+//    glBindBuffer(GL_ARRAY_BUFFER, buffer);
+//    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * _numOfVertices, _vertices, GL_STATIC_DRAW);
     glEnableVertexAttribArray(program.a_PositionHandler);
+//    glVertexAttribPointer(program.a_PositionHandler, 3, GL_FLOAT, GL_FALSE, sizeof(float) * 3, NULL);
     glVertexAttribPointer(program.a_PositionHandler, 3, GL_FLOAT, GL_FALSE, 0, self.vertices);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 
 - (void)updateTexture:(HQQVRProgram *)program
 {
+//    GLuint texture;
+//    glGenTextures(1, &texture);
+//    glBindBuffer(GL_ARRAY_BUFFER, texture);
+//    glBufferData(GL_ARRAY_BUFFER, sizeof(float) * _numOfTexCoords, _texCoords, GL_STATIC_DRAW);
+//    glEnableVertexAttribArray(program.a_TexCoordHandler);
+//    glVertexAttribPointer(program.a_TexCoordHandler, 2, GL_FLOAT, GL_FALSE, sizeof(float) * 2, NULL);
+    
     glEnableVertexAttribArray(program.a_TexCoordHandler);
     glVertexAttribPointer(program.a_TexCoordHandler, 2, GL_FLOAT, GL_FALSE, 0, self.texCoords);
 }
 
 - (void)draw
 {
+//    glDrawArrays(GL_TRIANGLES, 0, _numOfVertices);
     glDrawElements(GL_TRIANGLE_STRIP, self.numOfIndices, GL_UNSIGNED_SHORT, self.indices);
 }
 

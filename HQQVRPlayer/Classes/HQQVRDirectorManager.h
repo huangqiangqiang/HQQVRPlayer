@@ -12,7 +12,6 @@
 
 @interface HQQVRDirectorManager : NSObject
 
-+ (instancetype)manager;
 @property (nonatomic, strong) NSMutableArray *directors;
 @property (nonatomic, assign) HQQVRDisplayType displayType;
 @property (nonatomic, assign) HQQVRInteractiveType interactiveType;
