@@ -13,11 +13,11 @@
 
 + (NSString *)hqq_vrPlayerBundle
 {
-    static NSBundle *vrPlayerBundle = nil;
-    if (vrPlayerBundle == nil) {
-        vrPlayerBundle = [[[NSBundle bundleForClass:[HQQVRPlayer class]] resourcePath] stringByAppendingPathComponent:@"HQQVRResource.bundle"];
+    static NSString *vrPlayerBundlePath = nil;
+    if (vrPlayerBundlePath == nil) {
+        vrPlayerBundlePath = [[[NSBundle bundleForClass:[HQQVRPlayer class]] resourcePath] stringByAppendingPathComponent:@"HQQVRResource.bundle"];
     }
-    return vrPlayerBundle;
+    return vrPlayerBundlePath;
 }
 
 + (NSString *)hqq_vertexShaderPath

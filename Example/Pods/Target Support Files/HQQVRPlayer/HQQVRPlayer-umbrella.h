@@ -5,6 +5,7 @@
 #import "HQQVRDirectorManager.h"
 #import "HQQVRPlayer.h"
 #import "HQQVRProgram.h"
+#import "HQQVRRenderer.h"
 #import "HQQVRSphereObject.h"
 #import "HQQVRTexture.h"
 #import "HQQVRViewController.h"

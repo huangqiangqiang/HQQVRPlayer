@@ -17,7 +17,7 @@
 @property (nonatomic, strong) HQQVRSphereObject *object3D;
 
 @property (nonatomic, strong) UIImage *displayImage;
-@property (nonatomic, strong) UIImage *displayVideo;
+@property (nonatomic, strong) AVPlayerItem *displayVideo;
 @end
 
 @implementation HQQVRRenderer
@@ -65,7 +65,7 @@
     float size = [[UIScreen mainScreen] nativeScale];
     float width = [UIScreen mainScreen].bounds.size.width * size;
     float height = [UIScreen mainScreen].bounds.size.height * size;
-    int count = directors.count;
+    NSUInteger count = directors.count;
     for (int i = 0; i < count; i++) {
         HQQVRDirector *director = directors[i];
         

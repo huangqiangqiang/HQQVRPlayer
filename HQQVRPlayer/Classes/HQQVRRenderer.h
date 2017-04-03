@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "HQQVRDirectorManager.h"
 #import <AVFoundation/AVFoundation.h>
+#import "HQQVRViewController.h"
 
-@interface HQQVRRenderer : NSObject
+@interface HQQVRRenderer : NSObject <HQQVRViewControllerDelegate>
 - (void)loadImage:(UIImage *)image;
 - (void)loadVideo:(AVPlayerItem *)video;
 @property (nonatomic, strong) HQQVRDirectorManager *directorManager;

@@ -11,8 +11,6 @@
 
 @interface HQQBitmapViewController ()
 @property (nonatomic, strong) HQQVRPlayer *vrPlayer;
-@property (nonatomic, strong) UIButton *backBtn;
-@property (nonatomic, strong) UIButton *vrBtn;
 @end
 
 @implementation HQQBitmapViewController

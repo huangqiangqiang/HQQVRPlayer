@@ -33,7 +33,7 @@
         glDeleteShader(v_shader);
         glDeleteShader(f_shader);
         glDeleteProgram(programHandler);
-        return nil;
+        return 0;
     }
     return programHandler;
 }
@@ -66,8 +66,8 @@
 
 + (void)texImage2D:(UIImage *)image
 {
-    GLsizei width = CGImageGetWidth(image.CGImage);
-    GLsizei height = CGImageGetHeight(image.CGImage);
+    GLsizei width = (GLsizei)CGImageGetWidth(image.CGImage);
+    GLsizei height = (GLsizei)CGImageGetHeight(image.CGImage);
     
     void *imageData = malloc(width * height * 4);
     

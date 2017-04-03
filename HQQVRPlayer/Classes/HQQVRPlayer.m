@@ -15,7 +15,7 @@
 #import "HQQVRSphereObject.h"
 #import "HQQVRRenderer.h"
 
-@interface HQQVRPlayer() <HQQVRViewControllerDelegate>
+@interface HQQVRPlayer()
 
 @property (nonatomic, strong) HQQVRViewController *controller;
 
