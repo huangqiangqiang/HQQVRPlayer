@@ -22,4 +22,6 @@
 
 - (void)updateSensorMatrix:(GLKMatrix4)sensorMatrix;
 
+- (void)lookAndScaleAtPoint:(CGPoint)point;
+
 @end

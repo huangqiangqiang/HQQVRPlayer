@@ -51,6 +51,9 @@
         self.controller.vrDelegate = self.renderer;
         
         [self.controller.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(gestureRecognizerOnPan:)]];
+        UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(gestureRecognizerOnDoubleTap:)];
+        doubleTap.numberOfTapsRequired = 2;
+        [self.controller.view addGestureRecognizer:doubleTap];
     }
     return self;
 }
@@ -156,6 +159,14 @@
         [director updateTouchX:offsetX*0.2 touchY:offsetY*0.2];
     }
     self.prevPoint = point;
+}
+
+- (void)gestureRecognizerOnDoubleTap:(UITapGestureRecognizer *)tap
+{
+    CGPoint point = [tap locationInView:tap.view];
+    for (HQQVRDirector *director in self.directorManager.directors) {
+        [director lookAndScaleAtPoint:point];
+    }
 }
 
 @end
