@@ -34,4 +34,9 @@
     return program;
 }
 
+- (void)dealloc
+{
+    NSLog(@"%@ ------ dealloc",self.class);
+}
+
 @end

@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface HQQPlayerViewController : UIViewController
-@property (nonatomic, strong) UIButton *backBtn;
+
+// overwrite
+- (void)displayChanged:(int)index;
+- (void)interactiveChanged:(int)index;
 
 @end

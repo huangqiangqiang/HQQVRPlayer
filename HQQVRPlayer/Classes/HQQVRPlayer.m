@@ -9,7 +9,6 @@
 #import "HQQVRPlayer.h"
 #import "HQQVRViewController.h"
 #import "HQQVRTexture.h"
-#import <AVFoundation/AVFoundation.h>
 #import "HQQVRProgram.h"
 #import "HQQVRDirectorManager.h"
 #import "HQQVRSphereObject.h"
@@ -28,6 +27,8 @@
 @property (nonatomic, assign, getter=isImageSource) BOOL imageSource;
 @property (nonatomic, strong) id originSource;
 @property (nonatomic, strong) AVPlayer *videoPlayer;
+@property (nonatomic, strong) NSTimer *videoTimer;
+@property (nonatomic, copy) void(^videoPlayeTimeUpdateHandler)(float current, float duration, CMTime currentTime, CMTime durationTime);
 
 @property (nonatomic, assign) CGPoint prevPoint;
 @end
@@ -85,14 +86,56 @@
 {
     AVPlayerItem *playerItem = [AVPlayerItem playerItemWithURL:url];
     self.videoPlayer = [AVPlayer playerWithPlayerItem:playerItem];
-    [self.videoPlayer play];
     [self.renderer loadVideo:playerItem];
     
+    __weak typeof(self) wself = self;
+    
+    float duration = CMTimeGetSeconds(playerItem.asset.duration);
+    self.videoTimer = [NSTimer timerWithTimeInterval:1.0f repeats:YES block:^(NSTimer * _Nonnull timer) {
+        if (wself.videoPlayeTimeUpdateHandler) {
+            float currentTime = CMTimeGetSeconds(playerItem.currentTime);
+            wself.videoPlayeTimeUpdateHandler(currentTime, duration,playerItem.currentTime,playerItem.asset.duration);
+        }
+    }];
+    [[NSRunLoop currentRunLoop] addTimer:self.videoTimer forMode:NSDefaultRunLoopMode];
+}
+
+- (void)seekToTimeWithFloat:(float)time
+{
+    [self seekToTime:CMTimeMake(time * 1000, 1000)];
+}
+
+- (void)seekToTime:(CMTime)time
+{
+    if (self.videoPlayer) {
+        [self.videoPlayer seekToTime:time toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
+    }
+}
+
+- (void)play
+{
+    if (self.videoPlayer) {
+        [self.videoPlayer play];
+    }
+}
+
+- (void)pause
+{
+    if (self.videoPlayer) {
+        [self.videoPlayer pause];
+    }
 }
 
 - (void)dealloc
 {
     NSLog(@"%@ ------ dealloc",self.class);
+    [self.videoTimer invalidate];
+    self.videoTimer = nil;
+}
+
+- (void)setVideoPlayTimeUpdateHandler:(void (^)(float, float, CMTime, CMTime))handler
+{
+    self.videoPlayeTimeUpdateHandler = handler;
 }
 
 #pragma mark - <UIGestureRecognizer>

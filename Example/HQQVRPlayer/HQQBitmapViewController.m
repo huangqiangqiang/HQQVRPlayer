@@ -26,4 +26,14 @@
     [self.view addSubview:self.vrPlayer.view];
 }
 
+- (void)displayChanged:(int)index
+{
+    self.vrPlayer.displayType = index;
+}
+
+- (void)interactiveChanged:(int)index
+{
+    self.vrPlayer.interactiveType = index;
+}
+
 @end

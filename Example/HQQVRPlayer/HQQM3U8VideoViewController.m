@@ -24,6 +24,17 @@
     self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotion;
     [self.vrPlayer loadVideo:[NSURL URLWithString:@"http://139.198.9.190/Public/stream/shuangtasi/stream.m3u8"]];
     [self.view addSubview:self.vrPlayer.view];
+    [self.vrPlayer play];
+}
+
+- (void)displayChanged:(int)index
+{
+    self.vrPlayer.displayType = index;
+}
+
+- (void)interactiveChanged:(int)index
+{
+    self.vrPlayer.interactiveType = index;
 }
 
 @end

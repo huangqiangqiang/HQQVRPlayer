@@ -26,6 +26,17 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:@"resource/testVideo.mp4" ofType:nil];
     [self.vrPlayer loadVideo:[NSURL fileURLWithPath:path]];
     [self.view addSubview:self.vrPlayer.view];
+    [self.vrPlayer play];
+}
+
+- (void)displayChanged:(int)index
+{
+    self.vrPlayer.displayType = index;
+}
+
+- (void)interactiveChanged:(int)index
+{
+    self.vrPlayer.interactiveType = index;
 }
 
 @end

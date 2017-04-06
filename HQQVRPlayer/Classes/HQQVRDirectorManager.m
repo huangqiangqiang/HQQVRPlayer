@@ -24,6 +24,7 @@
     if (displayType == HQQVRDisplayTypeVR) {
         HQQVRDirector *directorLeft = [[HQQVRDirector alloc] init];
         HQQVRDirector *directorRight = [[HQQVRDirector alloc] init];
+        [directorRight setEyeX:-0.1f];
         [self.directors addObject:directorLeft];
         [self.directors addObject:directorRight];
     }
@@ -64,6 +65,7 @@
     [self.motionManager setDeviceMotionUpdateInterval:1.0f / 30.0];
     NSOperationQueue* motionQueue = [[NSOperationQueue alloc] init];
     
+    __weak typeof(self) wself = self;
     [self.motionManager startDeviceMotionUpdatesToQueue:motionQueue withHandler:^(CMDeviceMotion * _Nullable motion, NSError * _Nullable error) {
         
         CMAttitude* attitude = motion.attitude;
@@ -76,7 +78,7 @@
         
         sensor = [HQQGLUtil calculateMatrixFromQuaternion:&quaternion orientation:orientation];
         sensor = GLKMatrix4RotateX(sensor, M_PI_2);
-        for (HQQVRDirector *director in self.directors) {
+        for (HQQVRDirector *director in wself.directors) {
             [director updateSensorMatrix:sensor];
         }
     }];
@@ -86,6 +88,11 @@
 {
     [self.motionManager stopDeviceMotionUpdates];
     self.motionManager = nil;
+}
+
+- (void)dealloc
+{
+    NSLog(@"%@ ------ dealloc",self.class);
 }
 
 @end

@@ -130,4 +130,9 @@
     glDrawElements(GL_TRIANGLE_STRIP, self.numOfIndices, GL_UNSIGNED_SHORT, self.indices);
 }
 
+- (void)dealloc
+{
+    NSLog(@"%@ ------ dealloc",self.class);
+}
+
 @end

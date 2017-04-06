@@ -40,6 +40,18 @@
     return self;
 }
 
+- (void)setEyeX:(float)eyeX
+{
+    _eyeX = eyeX;
+    [self setupViewMatrix];
+}
+
+- (void)setLookX:(float)lookX
+{
+    _lookX = lookX;
+    [self setupViewMatrix];
+}
+
 - (void)setupViewMatrix
 {
     float eyeX = self.eyeX;
@@ -83,5 +95,9 @@
     self.sensorMatrix = sensorMatrix;
 }
 
+- (void)dealloc
+{
+    NSLog(@"%@ ------ dealloc",self.class);
+}
 
 @end
