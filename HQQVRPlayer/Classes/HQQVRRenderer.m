@@ -76,9 +76,6 @@
         glViewport(x, y, w, h);
         
         [director updateProjectionMatrixWithWidth:w height:h];
-//        [self.object3D updateVertex:self.program];
-//        [self.object3D updateTexture:self.program];
-        
         [director shot:self.program];
         [self.object3D draw];
     }

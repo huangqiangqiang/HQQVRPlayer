@@ -29,7 +29,14 @@ typedef NS_ENUM(NSInteger, HQQVRInteractiveType) {
 
 @property (nonatomic, weak, readonly) UIView *view;
 
+/**
+ 手指拖动视角
+ */
 @property (nonatomic, assign, getter=isTouchEnable) BOOL touchEnable;
+/**
+ 双击放大
+ */
+@property (nonatomic, assign) BOOL doubleTapToScaleEnable;
 @property (nonatomic, assign) HQQVRDisplayType displayType;
 @property (nonatomic, assign) HQQVRInteractiveType interactiveType;
 

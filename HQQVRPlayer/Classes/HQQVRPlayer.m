@@ -163,9 +163,11 @@
 
 - (void)gestureRecognizerOnDoubleTap:(UITapGestureRecognizer *)tap
 {
-    CGPoint point = [tap locationInView:tap.view];
-    for (HQQVRDirector *director in self.directorManager.directors) {
-        [director lookAndScaleAtPoint:point];
+    if (self.doubleTapToScaleEnable) {
+        CGPoint point = [tap locationInView:tap.view];
+        for (HQQVRDirector *director in self.directorManager.directors) {
+            [director lookAndScaleAtPoint:point];
+        }
     }
 }
 
