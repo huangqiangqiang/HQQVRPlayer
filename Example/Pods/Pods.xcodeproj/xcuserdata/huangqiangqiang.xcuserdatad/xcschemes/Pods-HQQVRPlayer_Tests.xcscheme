@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C6571B29C6DDC5077B1FBA04249FDCC"
+               BlueprintIdentifier = "986199880EF63B46ABF9F0DB5D7F7B33"
                BuildableName = "Pods_HQQVRPlayer_Tests.framework"
                BlueprintName = "Pods-HQQVRPlayer_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C6571B29C6DDC5077B1FBA04249FDCC"
+            BlueprintIdentifier = "986199880EF63B46ABF9F0DB5D7F7B33"
             BuildableName = "Pods_HQQVRPlayer_Tests.framework"
             BlueprintName = "Pods-HQQVRPlayer_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">

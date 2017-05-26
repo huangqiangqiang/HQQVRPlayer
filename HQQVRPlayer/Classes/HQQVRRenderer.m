@@ -16,8 +16,6 @@
 @property (nonatomic, strong) HQQVRProgram *program;
 @property (nonatomic, strong) HQQVRSphereObject *object3D;
 
-@property (nonatomic, strong) UIImage *displayImage;
-@property (nonatomic, strong) AVPlayerItem *displayVideo;
 @end
 
 @implementation HQQVRRenderer

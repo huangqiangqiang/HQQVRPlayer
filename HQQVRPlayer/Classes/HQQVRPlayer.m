@@ -75,6 +75,12 @@
     self.directorManager.interactiveType = self.interactiveType;
 }
 
+- (void)addToParanterContoller:(UIViewController *)paranterContoller
+{
+    [paranterContoller.view addSubview:self.controller.view];
+    [paranterContoller addChildViewController:self.controller];
+}
+
 - (UIView *)view
 {
     return self.controller.view;

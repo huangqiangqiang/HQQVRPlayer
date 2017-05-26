@@ -24,7 +24,7 @@
     self.vrPlayer.doubleTapToScaleEnable = YES;
     self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotionAndTouch;
     [self.vrPlayer loadImage:[UIImage imageNamed:@"resource/testImage.png"]];
-    [self.view addSubview:self.vrPlayer.view];
+    [self.vrPlayer addToParanterContoller:self];
 }
 
 - (void)displayChanged:(int)index

@@ -15,4 +15,7 @@
 - (void)loadImage:(UIImage *)image;
 - (void)loadVideo:(AVPlayerItem *)video;
 @property (nonatomic, strong) HQQVRDirectorManager *directorManager;
+
+@property (nonatomic, strong) UIImage *displayImage;
+@property (nonatomic, strong) AVPlayerItem *displayVideo;
 @end

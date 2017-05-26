@@ -1,2171 +1,838 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>005AD4FE7C264E63858ACC637AA6BE5A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8FF655CFFAF34FC357ED247181809251</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>01E03DE12A384A862F58E29B229F4D48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7DE7BFD4A7369BB740E2CD1C4B812AEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>022C9BEF12CE206E626BECD08A8E294C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04C271B0A244FD1B5C449286D1B02DC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRProgram.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0757A23F05B43FC10FE7D71BD8E3B6B3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>GLKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0ACDCBCB0B6796575F46FFA2F5410C6B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0B742C42A54AAAB396AD2ACFA64A1357</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>HQQVRPlayer</string>
-			<key>target</key>
-			<string>C678846B0D80AB0D51606704611D319E</string>
-			<key>targetProxy</key>
-			<string>D5B07E4787A1AFBF953522EA47103F01</string>
-		</dict>
-		<key>0BE52F62D309B6F303887CBC53A41EA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1116EFC52D152949A09D289C5235B049</string>
-				<string>64E176F070845902D352A2FF83D23EB7</string>
-				<string>D87DEAB282349D7108F7592890F8F238</string>
-				<string>40FD429A90F28C0861E40FF91C842590</string>
-				<string>55B4B14681E980FA28C3B5464BE2678F</string>
-				<string>B02CF48270F30F37119C6A6DF1A7FDE6</string>
-				<string>4A172494C69913B7F976979D2F0A32BB</string>
-				<string>EAE3E7295F2344BBB7180F7DCDDDB3BD</string>
-				<string>896DE4DA75D7B452EC5BB86320D222BA</string>
-				<string>04C271B0A244FD1B5C449286D1B02DC0</string>
-				<string>C78CCAC5B5E7EED18F802B2E66CD6249</string>
-				<string>9A57F8EEE5D158B8B33B08146E27945A</string>
-				<string>24DD2003796CAFC64FC00CE46AB508D1</string>
-				<string>F8177CF567EF7BF73246C90561429DD8</string>
-				<string>7007703FF5EB10E452936D63A65618AC</string>
-				<string>F4182704D966DCC884E2472B2CF96651</string>
-				<string>7DE7BFD4A7369BB740E2CD1C4B812AEE</string>
-				<string>BD61D1E07E62C15CDFEAFF7727007606</string>
-				<string>C760197BE31EF5EAA157050B99D5B57F</string>
-				<string>A3A234CC93808ECF5D275F2455D59CE1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D617B50D9F3D799801B8E11281E677A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D8CDF487094D2972CBD628893AE7C44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRPlayer-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F9B1885B802CCBFA1A4CB388EE715FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1116EFC52D152949A09D289C5235B049</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQGLUtil.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>144543489ED67F165E4B1FEE1D420297</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRPlayer-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1635554DC2176B452151C1BFB86E2730</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_HQQVRPlayer_Example.framework</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1AD551B6283BCC3B971DB186819695A9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>620A9C206DE23E20FFBB5B5F98243CCB</string>
-				<string>A253F6A8862AA46245F51E1F674A4F34</string>
-				<string>3ECDEA0077CC2F57EEC53E063116E271</string>
-				<string>BDD8421D858BDE6625609CCF9BC2A07E</string>
-				<string>A2549D84A22342357A5AE1665F6FF404</string>
-				<string>5CAEA8E6AB58F3908590EB2E4FA9074F</string>
-				<string>61AAE81452D4B75DDEA2E7C7EBFE8080</string>
-				<string>1D754DE9B343200A6640524131DF1FC8</string>
-				<string>58BB3C643E06AFF9451AA364E27F6478</string>
-				<string>01E03DE12A384A862F58E29B229F4D48</string>
-				<string>2D4970F222DC3BE7FD438BBA9365FFBC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1D754DE9B343200A6640524131DF1FC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24DD2003796CAFC64FC00CE46AB508D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1D8CB14EC14EE8A1C0F43D6A5D31B432</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2235C4EE86E74335181AD2E64911BF56</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_HQQVRPlayer_Tests.framework</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>24DD2003796CAFC64FC00CE46AB508D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRSphereObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>26C367B1D2ED9AB7CCCE0870C9A79D49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>HQQVRPlayer.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>298AC524F055D7DB9B187CD1A51A01BD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CEF429928C23A946483BE8B2ADCF3370</string>
-				<string>0F9B1885B802CCBFA1A4CB388EE715FC</string>
-				<string>75302EA96D36CE40CE4EE7C691ABC2B6</string>
-				<string>F85948B04E370A8FE4A409D17C087680</string>
-				<string>C5F71F841AEFD9C09E0651225DCE0B11</string>
-				<string>FA6CCA06A9DA188686CB1E6B48FB4FF3</string>
-				<string>3581A9BDBD6B10B391D5116A169EC576</string>
-				<string>BCE3DB1AC6D428610529267EE873D1EF</string>
-				<string>949C4AAFDA1915CA8BE890E747A14B75</string>
-				<string>022C9BEF12CE206E626BECD08A8E294C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-HQQVRPlayer_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-HQQVRPlayer_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B970DBD29F09E57A1E4E7C37BC0634A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>711A9849186E011A902F0180605F4A12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2BA1B44F251F5476A2EF8B6AC01A3BEC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D40B20EC9C88235E39E921ACE78925C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>672F284EF6301D3D8668698F5989DC50</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2D4970F222DC3BE7FD438BBA9365FFBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C760197BE31EF5EAA157050B99D5B57F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D3E3D092A3FF7311A98E44BBA36FFD12</string>
-				<string>0ACDCBCB0B6796575F46FFA2F5410C6B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2EE463AE36559C20D11E3CCC07C9ED45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>HQQVRPlayer.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32071E7C8641BA15BE68014FF272684E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EFFA55AA2AB42A14346FDC0487E5B819</string>
-				<string>8EBAE4DC35DD38E45799BDB69C3D1AFF</string>
-				<string>66F90AC53A6375DB688144CE9B8002FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HQQVRPlayer</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3581A9BDBD6B10B391D5116A169EC576</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35FF0A1EB0CF91634BADA46893423CAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5F71F841AEFD9C09E0651225DCE0B11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E9598FFD4CADFFBA691C09AEB9C967</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD47BAB0A996328AEF324DC07CA651A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C265D86F5A5E2798E11DC154C76F8F2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>949C4AAFDA1915CA8BE890E747A14B75</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HQQVRPlayer_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3ECDEA0077CC2F57EEC53E063116E271</key>
-		<dict>
-			<key>fileRef</key>
-			<string>55B4B14681E980FA28C3B5464BE2678F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>40FD429A90F28C0861E40FF91C842590</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRDirector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4153B00240E979E01B0B865976E3CE9A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BCE3DB1AC6D428610529267EE873D1EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>415F4064208355C3E64C1DD82721A1BA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>35FF0A1EB0CF91634BADA46893423CAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D726CA16FE9FA21747DF6B704598962B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>49F44CD270EDEC79B1945E1D8B9EB92E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2EE463AE36559C20D11E3CCC07C9ED45</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/HQQVRPlayer/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>HQQVRPlayer</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4A172494C69913B7F976979D2F0A32BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRPlayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55B4B14681E980FA28C3B5464BE2678F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRDirectorManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5777F3154103ED35784AC00325549F05</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9ABFACE19CEAA4905AB5E40DB57E1099</string>
-				<string>FF559D886673D0D65286BB68D902518F</string>
-				<string>9E97E2F56F2520DA7ACCC7D7A8AA1F29</string>
-				<string>2BA1B44F251F5476A2EF8B6AC01A3BEC</string>
-				<string>8FF655CFFAF34FC357ED247181809251</string>
-				<string>580654D543F877182ACED30D837FB568</string>
-				<string>5D07AA667D1264451D855E1D758D5DF7</string>
-				<string>672F284EF6301D3D8668698F5989DC50</string>
-				<string>1D8CB14EC14EE8A1C0F43D6A5D31B432</string>
-				<string>9028DCEFEFEAFDC2FE3F4724957E2FB3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-HQQVRPlayer_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-HQQVRPlayer_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>580654D543F877182ACED30D837FB568</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>580C8CAA05CC716009574EFE7716F530</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>022C9BEF12CE206E626BECD08A8E294C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HQQVRPlayer_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>58BB3C643E06AFF9451AA364E27F6478</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7007703FF5EB10E452936D63A65618AC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>59A1F4AC28EF62202BA6626528B97BE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>32071E7C8641BA15BE68014FF272684E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CAEA8E6AB58F3908590EB2E4FA9074F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>896DE4DA75D7B452EC5BB86320D222BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5D07AA667D1264451D855E1D758D5DF7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60E1BF723196E33881CF4684AFB535E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EAE3E7295F2344BBB7180F7DCDDDB3BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61AAE81452D4B75DDEA2E7C7EBFE8080</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C78CCAC5B5E7EED18F802B2E66CD6249</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>620A9C206DE23E20FFBB5B5F98243CCB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1116EFC52D152949A09D289C5235B049</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>64E176F070845902D352A2FF83D23EB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQGLUtil.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66F90AC53A6375DB688144CE9B8002FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>26C367B1D2ED9AB7CCCE0870C9A79D49</string>
-				<string>2EE463AE36559C20D11E3CCC07C9ED45</string>
-				<string>0D8CDF487094D2972CBD628893AE7C44</string>
-				<string>B612359759E14BAFF7F7563B94AEB7FD</string>
-				<string>144543489ED67F165E4B1FEE1D420297</string>
-				<string>0D617B50D9F3D799801B8E11281E677A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/HQQVRPlayer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>672F284EF6301D3D8668698F5989DC50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B1D74A2D5E7A96D6A255A317835D034</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8177CF567EF7BF73246C90561429DD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7007703FF5EB10E452936D63A65618AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRTexture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>711A9849186E011A902F0180605F4A12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>path</key>
-			<string>HQQVRResource.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>714FC6E7163E4F4CB1AC7758ED1E1289</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD47BAB0A996328AEF324DC07CA651A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>71606E3540AE60A5CF9872A06AE7BD3B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>714FC6E7163E4F4CB1AC7758ED1E1289</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>75302EA96D36CE40CE4EE7C691ABC2B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B277DCEC76CFA3E8D259965F3445E9D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>005AD4FE7C264E63858ACC637AA6BE5A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7C75EE02C7E0B14BE304D15A3E2AAF93</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3A234CC93808ECF5D275F2455D59CE1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>59A1F4AC28EF62202BA6626528B97BE4</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>BB06814354235F069F730A7C72C69912</string>
-				<string>95AFD12230981691670DC1958221D1A8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DE7BFD4A7369BB740E2CD1C4B812AEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8541F348AF7B35726CC34BD71BF43425</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9028DCEFEFEAFDC2FE3F4724957E2FB3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HQQVRPlayer_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>896DE4DA75D7B452EC5BB86320D222BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRProgram.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C6571B29C6DDC5077B1FBA04249FDCC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BEDC82061638CDABC9623EB16979A5D8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>415F4064208355C3E64C1DD82721A1BA</string>
-				<string>C4966DB8E1FCEB7AA6A21EF598B95D77</string>
-				<string>BCB2167D9CCF640FCB26CADBE15104FC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HQQVRPlayer_Tests</string>
-			<key>productName</key>
-			<string>Pods-HQQVRPlayer_Tests</string>
-			<key>productReference</key>
-			<string>2235C4EE86E74335181AD2E64911BF56</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>8C885E4292703C652366831CB75192DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40FD429A90F28C0861E40FF91C842590</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EBAE4DC35DD38E45799BDB69C3D1AFF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D7F869D355961D3DA3D0C0074A80C194</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F68FE90EC3C0963F569C3FAD7CDA640</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0757A23F05B43FC10FE7D71BD8E3B6B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8FF655CFFAF34FC357ED247181809251</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9028DCEFEFEAFDC2FE3F4724957E2FB3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>949C4AAFDA1915CA8BE890E747A14B75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>952EA3094685ABC84D2782FD146BC7FD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2EE463AE36559C20D11E3CCC07C9ED45</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/HQQVRPlayer/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>HQQVRPlayer</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>95AFD12230981691670DC1958221D1A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5777F3154103ED35784AC00325549F05</string>
-				<string>298AC524F055D7DB9B187CD1A51A01BD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>971B0E5C4851AEE57CDD0930F691EF18</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1D8CB14EC14EE8A1C0F43D6A5D31B432</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_HQQVRPlayer_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9A57F8EEE5D158B8B33B08146E27945A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRRenderer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ABFACE19CEAA4905AB5E40DB57E1099</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E97E2F56F2520DA7ACCC7D7A8AA1F29</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A253F6A8862AA46245F51E1F674A4F34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D87DEAB282349D7108F7592890F8F238</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A2549D84A22342357A5AE1665F6FF404</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A172494C69913B7F976979D2F0A32BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A3A234CC93808ECF5D275F2455D59CE1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSBundle+HQQVRPlayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A53F4902502B50E707BB103954B6E167</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04C271B0A244FD1B5C449286D1B02DC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B02CF48270F30F37119C6A6DF1A7FDE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRDirectorManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4A57A64FF37064D214AC760F7FE5B04</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>49F44CD270EDEC79B1945E1D8B9EB92E</string>
-				<string>952EA3094685ABC84D2782FD146BC7FD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B52D2B511F956CABD07FD80E24F56E4B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D40B20EC9C88235E39E921ACE78925C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B612359759E14BAFF7F7563B94AEB7FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRPlayer-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB06814354235F069F730A7C72C69912</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ED859097521B432EAC93C026F1301A8B</string>
-				<string>1635554DC2176B452151C1BFB86E2730</string>
-				<string>2235C4EE86E74335181AD2E64911BF56</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCB2167D9CCF640FCB26CADBE15104FC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4153B00240E979E01B0B865976E3CE9A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BCE3DB1AC6D428610529267EE873D1EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD61D1E07E62C15CDFEAFF7727007606</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDD8421D858BDE6625609CCF9BC2A07E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>144543489ED67F165E4B1FEE1D420297</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BEDC82061638CDABC9623EB16979A5D8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3C265D86F5A5E2798E11DC154C76F8F2</string>
-				<string>580C8CAA05CC716009574EFE7716F530</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C4966DB8E1FCEB7AA6A21EF598B95D77</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>38E9598FFD4CADFFBA691C09AEB9C967</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C5F71F841AEFD9C09E0651225DCE0B11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C678846B0D80AB0D51606704611D319E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B4A57A64FF37064D214AC760F7FE5B04</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FB24DFEDC3D5F72CC39DA3D87A7F18AC</string>
-				<string>DE94A5B286F96E90B3532AE4FD2630BB</string>
-				<string>1AD551B6283BCC3B971DB186819695A9</string>
-				<string>C83B308ACCD471D5A132E62972981C7E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>HQQVRPlayer</string>
-			<key>productName</key>
-			<string>HQQVRPlayer</string>
-			<key>productReference</key>
-			<string>ED859097521B432EAC93C026F1301A8B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C760197BE31EF5EAA157050B99D5B57F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSBundle+HQQVRPlayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C78CCAC5B5E7EED18F802B2E66CD6249</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRRenderer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C83B308ACCD471D5A132E62972981C7E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2B970DBD29F09E57A1E4E7C37BC0634A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CE8010E64F21D6A4FBBB951BC1CCC42B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4182704D966DCC884E2472B2CF96651</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CEF429928C23A946483BE8B2ADCF3370</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3E3D092A3FF7311A98E44BBA36FFD12</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>BB06814354235F069F730A7C72C69912</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>C678846B0D80AB0D51606704611D319E</string>
-				<string>ED2C1D495135918F455115ECD60B62F1</string>
-				<string>8C6571B29C6DDC5077B1FBA04249FDCC</string>
-			</array>
-		</dict>
-		<key>D5B07E4787A1AFBF953522EA47103F01</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C678846B0D80AB0D51606704611D319E</string>
-			<key>remoteInfo</key>
-			<string>HQQVRPlayer</string>
-		</dict>
-		<key>D62CFEB5CCAD8E0D9B1A27D438CAC506</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D8CDF487094D2972CBD628893AE7C44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D726CA16FE9FA21747DF6B704598962B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD47BAB0A996328AEF324DC07CA651A0</string>
-				<string>0757A23F05B43FC10FE7D71BD8E3B6B3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7F869D355961D3DA3D0C0074A80C194</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E3376781EFC90446837D7755CFEB7CB3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HQQVRPlayer</string>
-			<key>path</key>
-			<string>HQQVRPlayer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D87DEAB282349D7108F7592890F8F238</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>HQQVRDirector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DE94A5B286F96E90B3532AE4FD2630BB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F26B13AFA9A0A9DA2CC5E46E4E8F8E09</string>
-				<string>8F68FE90EC3C0963F569C3FAD7CDA640</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E3376781EFC90446837D7755CFEB7CB3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>711A9849186E011A902F0180605F4A12</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E56A419C90C2E2AED5A79F91551FBE1B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A57F8EEE5D158B8B33B08146E27945A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EA195640FE00AD90DBF7F635EFE91F3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD61D1E07E62C15CDFEAFF7727007606</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EAE3E7295F2344BBB7180F7DCDDDB3BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRPlayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBB66CAE54BCE57FD73CD26EA0E612BC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>971B0E5C4851AEE57CDD0930F691EF18</string>
-				<string>8541F348AF7B35726CC34BD71BF43425</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>ED2C1D495135918F455115ECD60B62F1</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EBB66CAE54BCE57FD73CD26EA0E612BC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7B277DCEC76CFA3E8D259965F3445E9D</string>
-				<string>71606E3540AE60A5CF9872A06AE7BD3B</string>
-				<string>B52D2B511F956CABD07FD80E24F56E4B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0B742C42A54AAAB396AD2ACFA64A1357</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HQQVRPlayer_Example</string>
-			<key>productName</key>
-			<string>Pods-HQQVRPlayer_Example</string>
-			<key>productReference</key>
-			<string>1635554DC2176B452151C1BFB86E2730</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>ED859097521B432EAC93C026F1301A8B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>HQQVRPlayer.framework</string>
-			<key>path</key>
-			<string>HQQVRPlayer.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF53D071E537F69E75E3B0AECF49DFAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B02CF48270F30F37119C6A6DF1A7FDE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EFFA55AA2AB42A14346FDC0487E5B819</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0BE52F62D309B6F303887CBC53A41EA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HQQVRPlayer</string>
-			<key>path</key>
-			<string>HQQVRPlayer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F26B13AFA9A0A9DA2CC5E46E4E8F8E09</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD47BAB0A996328AEF324DC07CA651A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F4182704D966DCC884E2472B2CF96651</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRTexture.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5276D40786FE563FAAD765ED3A870D5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64E176F070845902D352A2FF83D23EB7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8177CF567EF7BF73246C90561429DD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>HQQVRSphereObject.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F85948B04E370A8FE4A409D17C087680</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA6CCA06A9DA188686CB1E6B48FB4FF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB24DFEDC3D5F72CC39DA3D87A7F18AC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F5276D40786FE563FAAD765ED3A870D5</string>
-				<string>8C885E4292703C652366831CB75192DC</string>
-				<string>EF53D071E537F69E75E3B0AECF49DFAC</string>
-				<string>D62CFEB5CCAD8E0D9B1A27D438CAC506</string>
-				<string>60E1BF723196E33881CF4684AFB535E8</string>
-				<string>A53F4902502B50E707BB103954B6E167</string>
-				<string>E56A419C90C2E2AED5A79F91551FBE1B</string>
-				<string>6B1D74A2D5E7A96D6A255A317835D034</string>
-				<string>CE8010E64F21D6A4FBBB951BC1CCC42B</string>
-				<string>EA195640FE00AD90DBF7F635EFE91F3A</string>
-				<string>7C75EE02C7E0B14BE304D15A3E2AAF93</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FD47BAB0A996328AEF324DC07CA651A0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>FF559D886673D0D65286BB68D902518F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-HQQVRPlayer_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010DD32EADA7125E0B7FA27172B13339 /* HQQVRProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C271B0A244FD1B5C449286D1B02DC0 /* HQQVRProgram.m */; };
+		046251FD50A43C92F4DA192F8182D031 /* HQQVRPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A172494C69913B7F976979D2F0A32BB /* HQQVRPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		069A570FFF17A722D22184250B3DF4ED /* HQQVRPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 144543489ED67F165E4B1FEE1D420297 /* HQQVRPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CA296A4389178ECD8AAC40A8B62C21 /* HQQVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61D1E07E62C15CDFEAFF7727007606 /* HQQVRViewController.m */; };
+		163A8DD3B7948B243DE48B09BCC4EA36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78C8B77F6BE243B0A4A707CA93BCF5C /* Foundation.framework */; };
+		1F816D66046FAF48729621C6BD3D5D2C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B15B6E2F31B8965C8EEC25E15FBF95 /* GLKit.framework */; };
+		272E2FB90607A8993C6FF7E0E772AB71 /* Pods-HQQVRPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E974F15A2FE4F74DDEB32DDEB58DA66 /* HQQVRRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57F8EEE5D158B8B33B08146E27945A /* HQQVRRenderer.m */; };
+		32A02FDEF83E019B44A5669651322D7A /* HQQVRResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 711A9849186E011A902F0180605F4A12 /* HQQVRResource.bundle */; };
+		34E715EFFE712B95E886A6FE82F30A7C /* Pods-HQQVRPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */; };
+		53330D4F1D90E90A1C17494887D6B9ED /* HQQVRProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 896DE4DA75D7B452EC5BB86320D222BA /* HQQVRProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		549A7133E20EA7F53251992568543C41 /* NSBundle+HQQVRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A234CC93808ECF5D275F2455D59CE1 /* NSBundle+HQQVRPlayer.m */; };
+		55015D8B0C45CA1B3DD8B59C3DD0AF98 /* HQQVRRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C78CCAC5B5E7EED18F802B2E66CD6249 /* HQQVRRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		552157FCAD3314660C5402E800C79CFD /* Pods-HQQVRPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D9952F932BEB23D0BFC77619CA1194 /* HQQVRTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F4182704D966DCC884E2472B2CF96651 /* HQQVRTexture.m */; };
+		6B3BABF99631B9F8152D09F26726D9FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78C8B77F6BE243B0A4A707CA93BCF5C /* Foundation.framework */; };
+		6C7D24CD244642DD09AC9BE20D968B4C /* HQQVRDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = D87DEAB282349D7108F7592890F8F238 /* HQQVRDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80F6232B6F80646F08810056BF46DBF5 /* HQQVRDirectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B02CF48270F30F37119C6A6DF1A7FDE6 /* HQQVRDirectorManager.m */; };
+		8876298E01B898B3E12F0BDE9816CA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78C8B77F6BE243B0A4A707CA93BCF5C /* Foundation.framework */; };
+		8D7CE01DB2A8610BD921E15C2C29C145 /* HQQVRTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7007703FF5EB10E452936D63A65618AC /* HQQVRTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91179CED36570134C3DC816866359DCD /* HQQVRSphereObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F8177CF567EF7BF73246C90561429DD8 /* HQQVRSphereObject.m */; };
+		92B6E2BA68950E5E5EF63B1912AD3422 /* HQQGLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E176F070845902D352A2FF83D23EB7 /* HQQGLUtil.m */; };
+		99330304B0163BB3C5E0E534CA059376 /* HQQVRPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE3E7295F2344BBB7180F7DCDDDB3BD /* HQQVRPlayer.m */; };
+		A65A7C9DA102D579BF237BB7C030703C /* HQQVRSphereObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD2003796CAFC64FC00CE46AB508D1 /* HQQVRSphereObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B519231226C48EA3015155A9408D0D7F /* HQQVRPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CDF487094D2972CBD628893AE7C44 /* HQQVRPlayer-dummy.m */; };
+		B78606679EFD8A75A4733B219C87FBCD /* Pods-HQQVRPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */; };
+		BC679FC82273CB7874ACF8FE84AEA88B /* HQQVRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE7BFD4A7369BB740E2CD1C4B812AEE /* HQQVRViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC41CC97409E814AA9C8311189922A9 /* HQQGLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1116EFC52D152949A09D289C5235B049 /* HQQGLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E619D16737D48175085AB0F7FEAAD161 /* NSBundle+HQQVRPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C760197BE31EF5EAA157050B99D5B57F /* NSBundle+HQQVRPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F0C7FD3F89B486FEDD9CB43F016201 /* HQQVRDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FD429A90F28C0861E40FF91C842590 /* HQQVRDirector.m */; };
+		FE0B7C93082F2E26D70D2E02B125495C /* HQQVRDirectorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4B14681E980FA28C3B5464BE2678F /* HQQVRDirectorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4705B2DBA456F0FAD2F5138378E4E846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234C0E4CEDFC1FB208B1F9AB6B74C741;
+			remoteInfo = HQQVRPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		04C271B0A244FD1B5C449286D1B02DC0 /* HQQVRProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRProgram.m; sourceTree = "<group>"; };
+		0D617B50D9F3D799801B8E11281E677A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8CDF487094D2972CBD628893AE7C44 /* HQQVRPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQQVRPlayer-dummy.m"; sourceTree = "<group>"; };
+		0F9B1885B802CCBFA1A4CB388EE715FC /* Pods-HQQVRPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HQQVRPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		1116EFC52D152949A09D289C5235B049 /* HQQGLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQGLUtil.h; sourceTree = "<group>"; };
+		144543489ED67F165E4B1FEE1D420297 /* HQQVRPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQVRPlayer-umbrella.h"; sourceTree = "<group>"; };
+		1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HQQVRPlayer_Example.framework; path = "Pods-HQQVRPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HQQVRPlayer_Tests.framework; path = "Pods-HQQVRPlayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DD2003796CAFC64FC00CE46AB508D1 /* HQQVRSphereObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRSphereObject.h; sourceTree = "<group>"; };
+		26C367B1D2ED9AB7CCCE0870C9A79D49 /* HQQVRPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HQQVRPlayer.modulemap; sourceTree = "<group>"; };
+		2BA1B44F251F5476A2EF8B6AC01A3BEC /* Pods-HQQVRPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQQVRPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EE463AE36559C20D11E3CCC07C9ED45 /* HQQVRPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQQVRPlayer.xcconfig; sourceTree = "<group>"; };
+		3581A9BDBD6B10B391D5116A169EC576 /* Pods-HQQVRPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		40FD429A90F28C0861E40FF91C842590 /* HQQVRDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRDirector.m; sourceTree = "<group>"; };
+		4A172494C69913B7F976979D2F0A32BB /* HQQVRPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRPlayer.h; sourceTree = "<group>"; };
+		55B4B14681E980FA28C3B5464BE2678F /* HQQVRDirectorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRDirectorManager.h; sourceTree = "<group>"; };
+		580654D543F877182ACED30D837FB568 /* Pods-HQQVRPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5D07AA667D1264451D855E1D758D5DF7 /* Pods-HQQVRPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		64E176F070845902D352A2FF83D23EB7 /* HQQGLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQGLUtil.m; sourceTree = "<group>"; };
+		672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HQQVRPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		7007703FF5EB10E452936D63A65618AC /* HQQVRTexture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRTexture.h; sourceTree = "<group>"; };
+		711A9849186E011A902F0180605F4A12 /* HQQVRResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = HQQVRResource.bundle; sourceTree = "<group>"; };
+		75302EA96D36CE40CE4EE7C691ABC2B6 /* Pods-HQQVRPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQQVRPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DE7BFD4A7369BB740E2CD1C4B812AEE /* HQQVRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRViewController.h; sourceTree = "<group>"; };
+		896DE4DA75D7B452EC5BB86320D222BA /* HQQVRProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRProgram.h; sourceTree = "<group>"; };
+		8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HQQVRPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQQVRPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A57F8EEE5D158B8B33B08146E27945A /* HQQVRRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRRenderer.m; sourceTree = "<group>"; };
+		9ABFACE19CEAA4905AB5E40DB57E1099 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E97E2F56F2520DA7ACCC7D7A8AA1F29 /* Pods-HQQVRPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HQQVRPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3A234CC93808ECF5D275F2455D59CE1 /* NSBundle+HQQVRPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HQQVRPlayer.m"; sourceTree = "<group>"; };
+		B02CF48270F30F37119C6A6DF1A7FDE6 /* HQQVRDirectorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRDirectorManager.m; sourceTree = "<group>"; };
+		B612359759E14BAFF7F7563B94AEB7FD /* HQQVRPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQQVRPlayer-prefix.pch"; sourceTree = "<group>"; };
+		BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HQQVRPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BD61D1E07E62C15CDFEAFF7727007606 /* HQQVRViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRViewController.m; sourceTree = "<group>"; };
+		C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HQQVRPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		C760197BE31EF5EAA157050B99D5B57F /* NSBundle+HQQVRPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HQQVRPlayer.h"; sourceTree = "<group>"; };
+		C78CCAC5B5E7EED18F802B2E66CD6249 /* HQQVRRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRRenderer.h; sourceTree = "<group>"; };
+		CEF429928C23A946483BE8B2ADCF3370 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B15B6E2F31B8965C8EEC25E15FBF95 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		D87DEAB282349D7108F7592890F8F238 /* HQQVRDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HQQVRDirector.h; sourceTree = "<group>"; };
+		EAE3E7295F2344BBB7180F7DCDDDB3BD /* HQQVRPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRPlayer.m; sourceTree = "<group>"; };
+		ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HQQVRPlayer.framework; path = HQQVRPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4182704D966DCC884E2472B2CF96651 /* HQQVRTexture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRTexture.m; sourceTree = "<group>"; };
+		F78C8B77F6BE243B0A4A707CA93BCF5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F8177CF567EF7BF73246C90561429DD8 /* HQQVRSphereObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HQQVRSphereObject.m; sourceTree = "<group>"; };
+		F85948B04E370A8FE4A409D17C087680 /* Pods-HQQVRPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQQVRPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA6CCA06A9DA188686CB1E6B48FB4FF3 /* Pods-HQQVRPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQQVRPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF559D886673D0D65286BB68D902518F /* Pods-HQQVRPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HQQVRPlayer_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F0D08253CBFF0EFB7CDC759D00CC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8876298E01B898B3E12F0BDE9816CA22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77274E82BDFA6ECD82EAC9E67AF90C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3BABF99631B9F8152D09F26726D9FA /* Foundation.framework in Frameworks */,
+				1F816D66046FAF48729621C6BD3D5D2C /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3AE2C3D502D50F10F25004882D4D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163A8DD3B7948B243DE48B09BCC4EA36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE52F62D309B6F303887CBC53A41EA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1116EFC52D152949A09D289C5235B049 /* HQQGLUtil.h */,
+				64E176F070845902D352A2FF83D23EB7 /* HQQGLUtil.m */,
+				D87DEAB282349D7108F7592890F8F238 /* HQQVRDirector.h */,
+				40FD429A90F28C0861E40FF91C842590 /* HQQVRDirector.m */,
+				55B4B14681E980FA28C3B5464BE2678F /* HQQVRDirectorManager.h */,
+				B02CF48270F30F37119C6A6DF1A7FDE6 /* HQQVRDirectorManager.m */,
+				4A172494C69913B7F976979D2F0A32BB /* HQQVRPlayer.h */,
+				EAE3E7295F2344BBB7180F7DCDDDB3BD /* HQQVRPlayer.m */,
+				896DE4DA75D7B452EC5BB86320D222BA /* HQQVRProgram.h */,
+				04C271B0A244FD1B5C449286D1B02DC0 /* HQQVRProgram.m */,
+				C78CCAC5B5E7EED18F802B2E66CD6249 /* HQQVRRenderer.h */,
+				9A57F8EEE5D158B8B33B08146E27945A /* HQQVRRenderer.m */,
+				24DD2003796CAFC64FC00CE46AB508D1 /* HQQVRSphereObject.h */,
+				F8177CF567EF7BF73246C90561429DD8 /* HQQVRSphereObject.m */,
+				7007703FF5EB10E452936D63A65618AC /* HQQVRTexture.h */,
+				F4182704D966DCC884E2472B2CF96651 /* HQQVRTexture.m */,
+				7DE7BFD4A7369BB740E2CD1C4B812AEE /* HQQVRViewController.h */,
+				BD61D1E07E62C15CDFEAFF7727007606 /* HQQVRViewController.m */,
+				C760197BE31EF5EAA157050B99D5B57F /* NSBundle+HQQVRPlayer.h */,
+				A3A234CC93808ECF5D275F2455D59CE1 /* NSBundle+HQQVRPlayer.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		298AC524F055D7DB9B187CD1A51A01BD /* Pods-HQQVRPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF429928C23A946483BE8B2ADCF3370 /* Info.plist */,
+				0F9B1885B802CCBFA1A4CB388EE715FC /* Pods-HQQVRPlayer_Tests.modulemap */,
+				75302EA96D36CE40CE4EE7C691ABC2B6 /* Pods-HQQVRPlayer_Tests-acknowledgements.markdown */,
+				F85948B04E370A8FE4A409D17C087680 /* Pods-HQQVRPlayer_Tests-acknowledgements.plist */,
+				C5F71F841AEFD9C09E0651225DCE0B11 /* Pods-HQQVRPlayer_Tests-dummy.m */,
+				FA6CCA06A9DA188686CB1E6B48FB4FF3 /* Pods-HQQVRPlayer_Tests-frameworks.sh */,
+				3581A9BDBD6B10B391D5116A169EC576 /* Pods-HQQVRPlayer_Tests-resources.sh */,
+				BCE3DB1AC6D428610529267EE873D1EF /* Pods-HQQVRPlayer_Tests-umbrella.h */,
+				949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */,
+				022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-HQQVRPlayer_Tests";
+			path = "Target Support Files/Pods-HQQVRPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		32071E7C8641BA15BE68014FF272684E /* HQQVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA55AA2AB42A14346FDC0487E5B819 /* HQQVRPlayer */,
+				8EBAE4DC35DD38E45799BDB69C3D1AFF /* Resources */,
+				66F90AC53A6375DB688144CE9B8002FC /* Support Files */,
+			);
+			name = HQQVRPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E93AB1AA23BE58EB40A6394652987EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5777F3154103ED35784AC00325549F05 /* Pods-HQQVRPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9ABFACE19CEAA4905AB5E40DB57E1099 /* Info.plist */,
+				FF559D886673D0D65286BB68D902518F /* Pods-HQQVRPlayer_Example.modulemap */,
+				9E97E2F56F2520DA7ACCC7D7A8AA1F29 /* Pods-HQQVRPlayer_Example-acknowledgements.markdown */,
+				2BA1B44F251F5476A2EF8B6AC01A3BEC /* Pods-HQQVRPlayer_Example-acknowledgements.plist */,
+				8FF655CFFAF34FC357ED247181809251 /* Pods-HQQVRPlayer_Example-dummy.m */,
+				580654D543F877182ACED30D837FB568 /* Pods-HQQVRPlayer_Example-frameworks.sh */,
+				5D07AA667D1264451D855E1D758D5DF7 /* Pods-HQQVRPlayer_Example-resources.sh */,
+				672F284EF6301D3D8668698F5989DC50 /* Pods-HQQVRPlayer_Example-umbrella.h */,
+				1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */,
+				9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-HQQVRPlayer_Example";
+			path = "Target Support Files/Pods-HQQVRPlayer_Example";
+			sourceTree = "<group>";
+		};
+		59A1F4AC28EF62202BA6626528B97BE4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32071E7C8641BA15BE68014FF272684E /* HQQVRPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		66F90AC53A6375DB688144CE9B8002FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26C367B1D2ED9AB7CCCE0870C9A79D49 /* HQQVRPlayer.modulemap */,
+				2EE463AE36559C20D11E3CCC07C9ED45 /* HQQVRPlayer.xcconfig */,
+				0D8CDF487094D2972CBD628893AE7C44 /* HQQVRPlayer-dummy.m */,
+				B612359759E14BAFF7F7563B94AEB7FD /* HQQVRPlayer-prefix.pch */,
+				144543489ED67F165E4B1FEE1D420297 /* HQQVRPlayer-umbrella.h */,
+				0D617B50D9F3D799801B8E11281E677A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HQQVRPlayer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				59A1F4AC28EF62202BA6626528B97BE4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BB06814354235F069F730A7C72C69912 /* Products */,
+				95AFD12230981691670DC1958221D1A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E93AB1AA23BE58EB40A6394652987EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F78C8B77F6BE243B0A4A707CA93BCF5C /* Foundation.framework */,
+				D1B15B6E2F31B8965C8EEC25E15FBF95 /* GLKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8EBAE4DC35DD38E45799BDB69C3D1AFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7F869D355961D3DA3D0C0074A80C194 /* HQQVRPlayer */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		95AFD12230981691670DC1958221D1A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5777F3154103ED35784AC00325549F05 /* Pods-HQQVRPlayer_Example */,
+				298AC524F055D7DB9B187CD1A51A01BD /* Pods-HQQVRPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB06814354235F069F730A7C72C69912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */,
+				1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */,
+				2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7F869D355961D3DA3D0C0074A80C194 /* HQQVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E3376781EFC90446837D7755CFEB7CB3 /* Classes */,
+			);
+			name = HQQVRPlayer;
+			path = HQQVRPlayer;
+			sourceTree = "<group>";
+		};
+		E3376781EFC90446837D7755CFEB7CB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				711A9849186E011A902F0180605F4A12 /* HQQVRResource.bundle */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EFFA55AA2AB42A14346FDC0487E5B819 /* HQQVRPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0BE52F62D309B6F303887CBC53A41EA7 /* Classes */,
+			);
+			name = HQQVRPlayer;
+			path = HQQVRPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C4B61E026E9752225EDC845EDCA2FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552157FCAD3314660C5402E800C79CFD /* Pods-HQQVRPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C291C3F9DF3F619473B47C41D1196A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC41CC97409E814AA9C8311189922A9 /* HQQGLUtil.h in Headers */,
+				6C7D24CD244642DD09AC9BE20D968B4C /* HQQVRDirector.h in Headers */,
+				FE0B7C93082F2E26D70D2E02B125495C /* HQQVRDirectorManager.h in Headers */,
+				069A570FFF17A722D22184250B3DF4ED /* HQQVRPlayer-umbrella.h in Headers */,
+				046251FD50A43C92F4DA192F8182D031 /* HQQVRPlayer.h in Headers */,
+				53330D4F1D90E90A1C17494887D6B9ED /* HQQVRProgram.h in Headers */,
+				55015D8B0C45CA1B3DD8B59C3DD0AF98 /* HQQVRRenderer.h in Headers */,
+				A65A7C9DA102D579BF237BB7C030703C /* HQQVRSphereObject.h in Headers */,
+				8D7CE01DB2A8610BD921E15C2C29C145 /* HQQVRTexture.h in Headers */,
+				BC679FC82273CB7874ACF8FE84AEA88B /* HQQVRViewController.h in Headers */,
+				E619D16737D48175085AB0F7FEAAD161 /* NSBundle+HQQVRPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B92C1081EC587D3564B4AD064E4C7C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272E2FB90607A8993C6FF7E0E772AB71 /* Pods-HQQVRPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		234C0E4CEDFC1FB208B1F9AB6B74C741 /* HQQVRPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BDF907B0566553A4352269E245FBE5 /* Build configuration list for PBXNativeTarget "HQQVRPlayer" */;
+			buildPhases = (
+				2BF475B5FE2B0A7EDD4E3997C63A98C4 /* Sources */,
+				77274E82BDFA6ECD82EAC9E67AF90C55 /* Frameworks */,
+				5C291C3F9DF3F619473B47C41D1196A0 /* Headers */,
+				F55DBCABD26E241714F5BAEC2E67D60A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQQVRPlayer;
+			productName = HQQVRPlayer;
+			productReference = ED859097521B432EAC93C026F1301A8B /* HQQVRPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		786BDEA2B4117A16374055F3EF03554C /* Pods-HQQVRPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E37F765FD17A33279831BF0AD9368A /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Example" */;
+			buildPhases = (
+				8F33C242AE09DCD355AAC26A6F3E3B31 /* Sources */,
+				EF3AE2C3D502D50F10F25004882D4D7A /* Frameworks */,
+				2C4B61E026E9752225EDC845EDCA2FB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB08A139D5C0AD212C7D54ACDCE28116 /* PBXTargetDependency */,
+			);
+			name = "Pods-HQQVRPlayer_Example";
+			productName = "Pods-HQQVRPlayer_Example";
+			productReference = 1635554DC2176B452151C1BFB86E2730 /* Pods_HQQVRPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		986199880EF63B46ABF9F0DB5D7F7B33 /* Pods-HQQVRPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FA764A5CD056FA62A5A576C10452F8 /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Tests" */;
+			buildPhases = (
+				0B1E7C88675E931A20D3BAA016133897 /* Sources */,
+				34F0D08253CBFF0EFB7CDC759D00CC8E /* Frameworks */,
+				9B92C1081EC587D3564B4AD064E4C7C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HQQVRPlayer_Tests";
+			productName = "Pods-HQQVRPlayer_Tests";
+			productReference = 2235C4EE86E74335181AD2E64911BF56 /* Pods_HQQVRPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB06814354235F069F730A7C72C69912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234C0E4CEDFC1FB208B1F9AB6B74C741 /* HQQVRPlayer */,
+				786BDEA2B4117A16374055F3EF03554C /* Pods-HQQVRPlayer_Example */,
+				986199880EF63B46ABF9F0DB5D7F7B33 /* Pods-HQQVRPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55DBCABD26E241714F5BAEC2E67D60A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A02FDEF83E019B44A5669651322D7A /* HQQVRResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1E7C88675E931A20D3BAA016133897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E715EFFE712B95E886A6FE82F30A7C /* Pods-HQQVRPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF475B5FE2B0A7EDD4E3997C63A98C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B6E2BA68950E5E5EF63B1912AD3422 /* HQQGLUtil.m in Sources */,
+				F0F0C7FD3F89B486FEDD9CB43F016201 /* HQQVRDirector.m in Sources */,
+				80F6232B6F80646F08810056BF46DBF5 /* HQQVRDirectorManager.m in Sources */,
+				B519231226C48EA3015155A9408D0D7F /* HQQVRPlayer-dummy.m in Sources */,
+				99330304B0163BB3C5E0E534CA059376 /* HQQVRPlayer.m in Sources */,
+				010DD32EADA7125E0B7FA27172B13339 /* HQQVRProgram.m in Sources */,
+				2E974F15A2FE4F74DDEB32DDEB58DA66 /* HQQVRRenderer.m in Sources */,
+				91179CED36570134C3DC816866359DCD /* HQQVRSphereObject.m in Sources */,
+				64D9952F932BEB23D0BFC77619CA1194 /* HQQVRTexture.m in Sources */,
+				06CA296A4389178ECD8AAC40A8B62C21 /* HQQVRViewController.m in Sources */,
+				549A7133E20EA7F53251992568543C41 /* NSBundle+HQQVRPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F33C242AE09DCD355AAC26A6F3E3B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78606679EFD8A75A4733B219C87FBCD /* Pods-HQQVRPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB08A139D5C0AD212C7D54ACDCE28116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HQQVRPlayer;
+			target = 234C0E4CEDFC1FB208B1F9AB6B74C741 /* HQQVRPlayer */;
+			targetProxy = 4705B2DBA456F0FAD2F5138378E4E846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		304ABC3278A42A9FDDF10FCF9903F934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949C4AAFDA1915CA8BE890E747A14B75 /* Pods-HQQVRPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A2B94341638A45D4C60AF1B3B1B421E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8CB14EC14EE8A1C0F43D6A5D31B432 /* Pods-HQQVRPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49C548CB5BA759CD9FA86AFF621AD4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE463AE36559C20D11E3CCC07C9ED45 /* HQQVRPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQVRPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HQQVRPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD502677A9F7D6E291EC8E85317537DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE463AE36559C20D11E3CCC07C9ED45 /* HQQVRPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HQQVRPlayer/HQQVRPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HQQVRPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HQQVRPlayer/HQQVRPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HQQVRPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E74CC8A0FB13AEA504AF137DC2844E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022C9BEF12CE206E626BECD08A8E294C /* Pods-HQQVRPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9EF27F4390A2EAD6F3A0FE6F1373075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9028DCEFEFEAFDC2FE3F4724957E2FB3 /* Pods-HQQVRPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HQQVRPlayer_Example/Pods-HQQVRPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HQQVRPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BDF907B0566553A4352269E245FBE5 /* Build configuration list for PBXNativeTarget "HQQVRPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C548CB5BA759CD9FA86AFF621AD4D4 /* Debug */,
+				CD502677A9F7D6E291EC8E85317537DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E37F765FD17A33279831BF0AD9368A /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2B94341638A45D4C60AF1B3B1B421E /* Debug */,
+				E9EF27F4390A2EAD6F3A0FE6F1373075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FA764A5CD056FA62A5A576C10452F8 /* Build configuration list for PBXNativeTarget "Pods-HQQVRPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				304ABC3278A42A9FDDF10FCF9903F934 /* Debug */,
+				E74CC8A0FB13AEA504AF137DC2844E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -23,7 +23,14 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
     [self setupUI];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
 }
 
 - (void)setupUI
@@ -52,7 +59,11 @@
 
 - (void)back
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if (self.navigationController != nil) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }else{
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 - (void)diaplayChanged

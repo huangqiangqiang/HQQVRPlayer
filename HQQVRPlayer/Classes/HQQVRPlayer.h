@@ -39,6 +39,7 @@ typedef NS_ENUM(NSInteger, HQQVRInteractiveType) {
 @property (nonatomic, assign) BOOL doubleTapToScaleEnable;
 @property (nonatomic, assign) HQQVRDisplayType displayType;
 @property (nonatomic, assign) HQQVRInteractiveType interactiveType;
+- (void)addToParanterContoller:(UIViewController *)parentController;
 
 /**
  帧数：30~60之间，如果超过这个范围取30或60

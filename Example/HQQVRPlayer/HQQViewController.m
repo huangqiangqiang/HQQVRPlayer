@@ -59,7 +59,8 @@
     else if (indexPath.row == 2) {
         vc = [[HQQM3U8VideoViewController alloc] init];
     }
-    [self presentViewController:vc animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+//    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

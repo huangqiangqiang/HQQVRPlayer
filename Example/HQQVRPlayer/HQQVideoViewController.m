@@ -25,7 +25,7 @@
     self.vrPlayer.interactiveType = HQQVRInteractiveTypeMotion;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"resource/testVideo.mp4" ofType:nil];
     [self.vrPlayer loadVideo:[NSURL fileURLWithPath:path]];
-    [self.view addSubview:self.vrPlayer.view];
+    [self.vrPlayer addToParanterContoller:self];
     [self.vrPlayer play];
 }
 
