@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HQQVRPlayer'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'A lightweight vr library for plays panoramas and videos.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.A lightweight vr library for plays panoramas and videos.

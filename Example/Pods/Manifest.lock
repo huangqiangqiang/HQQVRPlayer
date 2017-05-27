@@ -1,16 +1,21 @@
 PODS:
-  - HQQVRPlayer (0.2.0)
+  - HQQVRPlayer (0.3.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - HQQVRPlayer (from `../`)
+  - SDWebImage
 
 EXTERNAL SOURCES:
   HQQVRPlayer:
     :path: ../
 
 SPEC CHECKSUMS:
-  HQQVRPlayer: ca057dc5983690ac28c5ecab4f1c2747c6f0dbb7
+  HQQVRPlayer: bd9bfbd237aba1093a1c72878c142627e2b85830
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: afba4553377381e8fc2740c51051b0181af70f60
+PODFILE CHECKSUM: 6bfbd6885802b9f256829543aeb6aa1c47798b3c
 
 COCOAPODS: 1.2.0

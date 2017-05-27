@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		15D694129AC2A565E3605999 /* Pods_HQQVRPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3742AAD476EBCCB83614E6C2 /* Pods_HQQVRPlayer_Example.framework */; };
 		532310EA1E91107100D6CC5C /* HQQPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532310E91E91107100D6CC5C /* HQQPlayerViewController.m */; };
+		533D65DE1ED9057200DD66C9 /* HQQNetworkBitmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533D65DD1ED9057200DD66C9 /* HQQNetworkBitmapViewController.m */; };
 		53AA83A31E8E836B00909F4F /* HQQBitmapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */; };
 		53AA83A61E8E837800909F4F /* HQQVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA83A51E8E837800909F4F /* HQQVideoViewController.m */; };
 		53AA83BF1E8EA15100909F4F /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 53AA83BE1E8EA15100909F4F /* resource */; };
@@ -47,6 +48,8 @@
 		4C7110CF554CDF1EB4321BEA /* Pods-HQQVRPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQQVRPlayer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQQVRPlayer_Tests/Pods-HQQVRPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		532310E81E91107100D6CC5C /* HQQPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQPlayerViewController.h; sourceTree = "<group>"; };
 		532310E91E91107100D6CC5C /* HQQPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQPlayerViewController.m; sourceTree = "<group>"; };
+		533D65DC1ED9057200DD66C9 /* HQQNetworkBitmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQNetworkBitmapViewController.h; sourceTree = "<group>"; };
+		533D65DD1ED9057200DD66C9 /* HQQNetworkBitmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQNetworkBitmapViewController.m; sourceTree = "<group>"; };
 		53AA83A11E8E836B00909F4F /* HQQBitmapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQBitmapViewController.h; sourceTree = "<group>"; };
 		53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQQBitmapViewController.m; sourceTree = "<group>"; };
 		53AA83A41E8E837800909F4F /* HQQVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQQVideoViewController.h; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				532310E91E91107100D6CC5C /* HQQPlayerViewController.m */,
 				53AA83A11E8E836B00909F4F /* HQQBitmapViewController.h */,
 				53AA83A21E8E836B00909F4F /* HQQBitmapViewController.m */,
+				533D65DC1ED9057200DD66C9 /* HQQNetworkBitmapViewController.h */,
+				533D65DD1ED9057200DD66C9 /* HQQNetworkBitmapViewController.m */,
 				53AA83A41E8E837800909F4F /* HQQVideoViewController.h */,
 				53AA83A51E8E837800909F4F /* HQQVideoViewController.m */,
 				53AA83DC1E8F9E6300909F4F /* HQQM3U8VideoViewController.h */,
@@ -427,6 +432,7 @@
 				532310EA1E91107100D6CC5C /* HQQPlayerViewController.m in Sources */,
 				53AA83A61E8E837800909F4F /* HQQVideoViewController.m in Sources */,
 				53AA83DE1E8F9E6300909F4F /* HQQM3U8VideoViewController.m in Sources */,
+				533D65DE1ED9057200DD66C9 /* HQQNetworkBitmapViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

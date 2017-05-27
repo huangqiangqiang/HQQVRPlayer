@@ -8,6 +8,7 @@
 
 #import "HQQViewController.h"
 #import "HQQBitmapViewController.h"
+#import "HQQNetworkBitmapViewController.h"
 #import "HQQVideoViewController.h"
 #import "HQQM3U8VideoViewController.h"
 
@@ -24,6 +25,7 @@
     
     self.dataList = @[
                       @"Image Example",
+                      @"Network Image Example",
                       @"Local Video Example",
                       @"M3U8 Video Example"
                       ];
@@ -54,9 +56,12 @@
         vc = [[HQQBitmapViewController alloc] init];
     }
     else if (indexPath.row == 1) {
-        vc = [[HQQVideoViewController alloc] init];
+        vc = [[HQQNetworkBitmapViewController alloc] init];
     }
     else if (indexPath.row == 2) {
+        vc = [[HQQVideoViewController alloc] init];
+    }
+    else if (indexPath.row == 3) {
         vc = [[HQQM3U8VideoViewController alloc] init];
     }
     [self.navigationController pushViewController:vc animated:YES];

@@ -3,6 +3,8 @@ use_frameworks!
 target 'HQQVRPlayer_Example' do
   pod 'HQQVRPlayer', :path => '../'
   
+  pod 'SDWebImage'
+  
   target 'HQQVRPlayer_Tests' do
     inherit! :search_paths
 

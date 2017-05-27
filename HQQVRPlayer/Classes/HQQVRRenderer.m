@@ -23,11 +23,17 @@
 - (void)loadImage:(UIImage *)image
 {
     self.displayImage = image;
+    if (self.texture) {
+        [self.texture loadImage:image];
+    }
 }
 
 - (void)loadVideo:(AVPlayerItem *)playerItem
 {
     self.displayVideo = playerItem;
+    if (self.texture) {
+        [self.texture loadVideoWithPlayerItem:playerItem];
+    }
 }
 
 - (void)vrViewControllerDidReady
